@@ -50,25 +50,25 @@ The website will feature:
 - Easy-to-use form for users to sign up for hikes.
 
 ---
-### 4. Wireframes
-Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view. 
+## 4. Wireframes
 
+Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view.
 
 ### Home Page
-![Home Page](assets/images/Home Page.png)
+![Home Page](assets/images/Home.png)
 
 ### About Us Page
-![About Us](assets/images/About Us page.png)
+![About Us](assets/images/About-Us.png)
 
 ### Hikes Page
-![Hikes Page](assets/images/Hikes Page.png)
+![Hikes](assets/images/Hikes.png)
 
 ### Prices and Packages Page
-![Prices and Packages](assets/images/Prices and Packages.png)
+![Prices and Packages](assets/images/Prices-and-Packages.png)
 
 ### Checklist Page
-![Checklist](assets/images/Check list.png)
+![Checklist](assets/images/Check-list.png)
 
 ### Thank You Page
-![Thank You](assets/images/Thank You page.png)
+![Thank You](assets/images/Thank-You.png)
 
