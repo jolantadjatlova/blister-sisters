@@ -54,21 +54,21 @@ The website will feature:
 
 Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view.
 
-## Home Page
+#### Home Page
 ![Home Page](assets/images/Home.png)
 
-## About Us Page
+#### About Us Page
 ![About Us](assets/images/About-Us.png)
 
-## Hikes Page
+#### Hikes Page
 ![Hikes](assets/images/Hikes.png)
 
-## Prices and Packages Page
+#### Prices and Packages Page
 ![Prices and Packages](assets/images/Prices-and-Packages.png)
 
-## Checklist Page
+#### Checklist Page
 ![Checklist](assets/images/Check-list.png)
 
-## Thank You Page
+#### Thank You Page
 ![Thank You](assets/images/Thank-You.png)
 
