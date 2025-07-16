@@ -47,14 +47,28 @@ The website will feature:
 - Inspiring images of women hiking together.
 
 **Contact Form:**  
-- Easy-to-use form for users to sign up for hikes, submit their own stories, or reach out for support.
+- Easy-to-use form for users to sign up for hikes.
 
 ---
+### 4. Wireframes
+Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view. 
 
-## Future Enhancements
-- Integrate a blog with articles on hiking tips, mental health, and personal growth.
-- Add a gallery of past group hikes.
-- Conduct Lighthouse testing to ensure optimal performance and accessibility.
-- Run UX tests with actual users and refine based on feedback.
 
----
+### Home Page
+![Home Page](assets/images/Home Page.png)
+
+### About Us Page
+![About Us](assets/images/About Us page.png)
+
+### Hikes Page
+![Hikes Page](assets/images/Hikes Page.png)
+
+### Prices and Packages Page
+![Prices and Packages](assets/images/Prices and Packages.png)
+
+### Checklist Page
+![Checklist](assets/images/Check list.png)
+
+### Thank You Page
+![Thank You](assets/images/Thank You page.png)
+
