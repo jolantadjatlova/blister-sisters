@@ -6,7 +6,7 @@ Blister Sisters is a website created to celebrate a community of women who come 
 
 To view the deployed website click [here](https://your-link-will-go-here.com).
 
-# UXD
+# UX
 
 
 ## Website Intentions
@@ -22,7 +22,23 @@ To view the deployed website click [here](https://your-link-will-go-here.com).
 - Ensure the site is intuitive to navigate, with simple CTAs for joining or sharing stories.
 - Create a warm, rustic aesthetic that reflects nature and togetherness.
 
----
+## User Goals
+- Easy-to-use navigation
+- Clear CTAs for joining hikes
+- Warm, welcoming design
+- Accessible on mobile, tablet, and desktop
+- Simple way to sign up
+
+## User Stories
+- As a user, I need easy navigation and a user-friendly design, including a
+ responsive layout for my device, so I can find hiking information quickly and efficiently without
+ frustration.
+ - As a user,  I want to see high quality images and engaging descriptions of hiking
+ trails and scenery, so I can decide if it's the right place for me to explore.
+ - As a user,  I need to find hiking locations, contact details for inquiries,
+ and essential safety information, so I can plan my hike confidently.
+ - As a user, I want to sign up for my chosen hike/s through a simple form.
+ - As a user, I want clear information about recommended equipment/checklist items and any potential hike discounts, so I can plan my outdoor adventures within my budget.
 
 ## Creation Process using the Agile Software Development Method
 
@@ -40,7 +56,7 @@ The website will feature:
 ### 3. Architecture & Design
 **Landing Page:**  
 - A hero image that reflects the outdoors and community spirit.
-- Immediate CTA to “Join a Hike” or “Read Stories.”
+- Immediate CTA to “Join a Hike”.
 
 **Meet the Sisters:**  
 - A page highlighting personal stories, possibly with short bios or quotes.
