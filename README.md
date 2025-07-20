@@ -88,3 +88,12 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 #### Thank You Page
 ![Thank You](assets/images/Thank-You.png)
 
+### 5. Design Choices
+
+#### Typography
+Will be (Information regarding chosen font with reasons will be added here)
+
+#### Colour Scheme
+The color scheme was generated using Coolors.co, inspired by the website’s hero image of a mountain at sunrise. The palette reflects natural tones of morning light and earthy environment, creating a calm and welcoming atmosphere.
+
+![Color Palette](assets/images/palette.png) 
