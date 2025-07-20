@@ -1,0 +1,90 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* CSS Variables */
+:root {
+  --font-primary: 'Lato', sans-serif;
+  --font-heading: 'EB Garamond', serif;
+  --color-dark-green: #1C2B28;
+  --color-warm-pink: #B6655D;
+  --color-soft-beige: #FDF6E3;
+  --color-overlay: rgba(86, 46, 45, 0.5);
+  --text-light: #ffffff;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-soft-beige);
+  color: var(--color-dark-green);
+  background-image: url("assets/images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  color: var(--color-warm-pink);
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  color: var(--text-light);
+}
+
+.hero-overlay {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  max-width: none;
+  margin-left: 5%;
+}
+
+.hero-overlay h1 {
+  font-size: 5rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #f8f9fa;
+  color: var(--color-dark-green);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-container a {
+  letter-spacing: 30px;
+}
+
+.footer-container .social a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer .social a .fa-brands {
+  color: var(--color-dark-green);
+  transition: color 0.3s ease;
+}
+
+footer .social a:hover .fa-brands {
+  color: #808580;
+}
