@@ -44,9 +44,7 @@ img {
 }
 /* Hero Section */
 .hero {
-    position: relative;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   height: 100vh;
   background-image: url("assets/images/background.png");
@@ -54,16 +52,29 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: center;     
+  justify-content: flex-start; 
   color: var(--text-light);
 }
-
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  color: var(--text-light);
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: var(--text-light);
+}
 .hero-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     
+  justify-content: center;
   max-width: 800px;
-  margin: 0 auto; /* center it horizontally */
-  padding-left: 2cm;
-  padding-right: 2cm;
+  text-align: left;
+  z-index: 2;
 }
 
 .hero-overlay h1 {
@@ -208,5 +219,50 @@ footer .social a:hover .fa-brands {
   .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  /*Hero section responsiveness */
+  .hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: var(--text-light);
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 10vh;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    white-space: normal;
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 }
