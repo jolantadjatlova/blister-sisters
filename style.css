@@ -10,6 +10,7 @@
   --color-soft-beige: #FDF6E3;
   --color-overlay: rgba(86, 46, 45, 0.5);
   --text-light: #ffffff;
+  --color-light-grey: #f8f9fa;
 }
 
 /* Global Styles */
@@ -24,11 +25,23 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
   font-family: var(--font-heading);
   color: var(--color-warm-pink);
+}
+
+.logo-img {
+  height: 60px;
+  width: auto; /* Keeps the aspect ratio */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Hero Section */
@@ -60,6 +73,16 @@ h1 {
   color: var(--text-light);
   margin: 0;
 }
+/* Custom Navbar styles*/
+.custom-navbar {
+  background-color: var(--color-light-grey); 
+  color: var(--text-light);
+  width: 100%;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
 
 /* Footer */
 .site-footer {
@@ -87,4 +110,26 @@ footer .social a .fa-brands {
 
 footer .social a:hover .fa-brands {
   color: #808580;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-toggler {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
