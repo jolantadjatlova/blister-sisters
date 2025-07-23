@@ -141,25 +141,57 @@ img {
   color: var(--color-dark-green);
 }
 
-.hikes-section h3 {
-  font-family: var(--font-heading);
+.hikes-section .btn:hover {
+  background-color: #944e48;
+}
+
+.hike-card {
+  margin-bottom: 2rem;
+}
+
+.hike-card .col-md-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* or center if you prefer vertical centering */
+}
+
+.hike-card img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.hike-card h3 {
+   font-family: var(--font-heading);
   margin-bottom: 15px;
-}
-
-.hikes-section p {
-  margin-bottom: 20px;
+  font-size: 1.75rem;
   color: var(--color-dark-green);
+  
 }
 
-.hikes-section .btn {
-  background-color: var(--color-warm-pink);
+.hike-card p {
+    margin-bottom: 20px;
+  color: var(--color-dark-green);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.hike-card .btn {
+    background-color: var(--color-warm-pink);
   border: none;
   color: white;
   transition: background-color 0.3s ease;
+  margin-top: 15px;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.hike-card .btn:hover {
+  background-color: #944e48;
 }
 
-.hikes-section .btn:hover {
-  background-color: #944e48;
+.hike-card .text-end {
+  display: flex;
+  justify-content: flex-end;
 }
 /* Custom Navbar styles*/
 .custom-navbar {
@@ -254,6 +286,20 @@ footer .social a:hover .fa-brands {
 
   .row.align-items-center.mb-5.flex-md-row-reverse {
     flex-direction: column !important;
+  }
+
+  /* Hike card adjustments */
+  .hike-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hike-card .text-end {
+    justify-content: center;
+  }
+
+  .hike-card h3 {
+    margin-top: 20px;
   }
 
   .hikes-section .btn {
