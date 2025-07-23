@@ -6,7 +6,7 @@
   --font-primary: 'Lato', sans-serif;
   --font-heading: 'EB Garamond', serif;
   --color-dark-green: #1C2B28;
-  --color-warm-pink: #B6655D;
+  --color-warm-pink: #B6655d;
   --color-soft-beige: #FDF6E3;
   --color-overlay: rgba(86, 46, 45, 0.5);
   --text-light: #ffffff;
@@ -132,7 +132,7 @@ img {
 /* Hikes Section */
 .hikes-section {
   padding: 60px 20px;
-  background-color: var(--color-light-grey); 
+  background-color: var(--color-soft-beige); 
 }
 
 .hikes-section h2 {
@@ -141,7 +141,22 @@ img {
   color: var(--color-dark-green);
 }
 
-.hikes-section .btn:hover {
+
+.btn-signup {
+  background-color: var(--color-warm-pink);
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.375rem;
+}
+
+.btn-signup:hover {
   background-color: #944e48;
 }
 
@@ -173,20 +188,6 @@ img {
   color: var(--color-dark-green);
   font-size: 1rem;
   line-height: 1.6;
-}
-
-.hike-card .btn {
-    background-color: var(--color-warm-pink);
-  border: none;
-  color: white;
-  transition: background-color 0.3s ease;
-  margin-top: 15px;
-  padding: 8px 18px;
-  font-weight: 500;
-  font-size: 1rem;
-}
-.hike-card .btn:hover {
-  background-color: #944e48;
 }
 
 .hike-card .text-end {
