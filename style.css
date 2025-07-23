@@ -182,7 +182,7 @@ img {
 }
 
 .footer-container a {
-  letter-spacing: 30px;
+  letter-spacing: normal;
 }
 
 .footer-container .social a {
@@ -203,6 +203,7 @@ footer .social a:hover .fa-brands {
 /* Media queries */
 
 @media (max-width: 768px) {
+  /* Navbar adjustments */
   .navbar-collapse {
     background-color: #f8f9fa;
     padding: 10px 15px;
@@ -221,48 +222,52 @@ footer .social a:hover .fa-brands {
     padding-right: 0;
   }
 
-  /*Hero section responsiveness */
+  /* Hero section adjustments */
   .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url("assets/images/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  color: var(--text-light);
-  text-align: left;
-}
-
-.hero h1 {
-  font-size: 5rem;
-  margin-bottom: 20px;
-  white-space: nowrap;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin: 0;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .hero {
-    padding-top: 10vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10vh 5vw;
+    height: auto; /* Allow content height to adjust */
+    text-align: left;
   }
 
   .hero h1 {
     font-size: 2.5rem;
-    white-space: normal;
+    white-space: normal; /* Allow wrapping */
   }
 
   .hero p {
     font-size: 1rem;
+  }
+
+  /* About section stacking */
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Hikes section image/text stacking */
+  .row.align-items-center.mb-5 {
+    flex-direction: column !important;
+  }
+
+  .row.align-items-center.mb-5.flex-md-row-reverse {
+    flex-direction: column !important;
+  }
+
+  .hikes-section .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Footer social icons on smaller screens */
+  .footer-container .social {
+    margin-top: 15px;
+  }
+
+  .footer-container .social a {
+    margin: 0 8px;
+    font-size: 1.3rem;
   }
 }
