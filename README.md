@@ -38,7 +38,8 @@ To view the deployed website click [here](https://your-link-will-go-here.com).
  - As a user,  I need to find hiking locations, contact details for inquiries,
  and essential safety information, so I can plan my hike confidently.
  - As a user, I want to sign up for my chosen hike/s through a simple form.
- - As a user, I want clear information about recommended equipment/checklist items and any potential hike discounts, so I can plan my outdoor adventures within my budget.
+ - As a user, I want clear and helpful information about what to pack for a hike, so I feel safe and prepared on the day.
+ - As a user, I want to compare hike prices and available bundle deals, so I can choose an option that fits my budget.
 
 ## Creation Process using the Agile Software Development Method
 
