@@ -204,6 +204,42 @@ img {
   position: relative;
   z-index: 10;
 }
+/* Checklist section */
+.checklist-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: var(--color-soft-beige); /* optional for consistency */
+}
+
+.checklist-section h2 {
+  font-family: var(--font-heading);
+  color: var(--color-dark-green);
+}
+
+.checklist-section h2 {
+  font-family: var(--font-heading);
+  color: var(--color-dark-green);
+}
+
+.checklist-cards .card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  height: 100%;
+}
+
+.checklist-cards .card:hover {
+  transform: translateY(-4px);
+}
+
+.checklist-cards .card-title {
+  font-family: var(--font-heading);
+  color: var(--color-dark-green);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
 
 /* Footer */
 .site-footer {
@@ -231,6 +267,54 @@ footer .social a .fa-brands {
 
 footer .social a:hover .fa-brands {
   color: #808580;
+}
+
+/* ===== CSS-Only Pricing Tabs ===== */
+.css-tabs {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.css-tabs input[type="radio"] {
+  display: none;
+}
+
+.css-tabs label {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f1f1f1;
+  cursor: pointer;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.css-tabs label:hover {
+  background: #e2e2e2;
+}
+
+.css-tabs .tab-panel {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: white;
+  border-radius: 0 0 6px 6px;
+}
+
+/* Show the selected tab */
+#tab1:checked ~ label[for="tab1"],
+#tab2:checked ~ label[for="tab2"] {
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+#tab1:checked ~ .tab-panel:nth-of-type(1),
+#tab2:checked ~ .tab-panel:nth-of-type(2) {
+  display: block;
 }
 
 /* Media queries */
@@ -306,7 +390,15 @@ footer .social a:hover .fa-brands {
   .hikes-section .btn {
     width: 100%;
     text-align: center;
+  } 
+
+  /* Checklist section */
+  @media (max-width: 768px) {
+  .checklist-cards .card {
+    margin-bottom: 20px;
   }
+}
+
 
   /* Footer social icons on smaller screens */
   .footer-container .social {
