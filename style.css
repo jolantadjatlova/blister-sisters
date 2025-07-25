@@ -216,11 +216,6 @@ img {
   color: var(--color-dark-green);
 }
 
-.checklist-section h2 {
-  font-family: var(--font-heading);
-  color: var(--color-dark-green);
-}
-
 .checklist-cards .card {
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -239,6 +234,10 @@ img {
   color: var(--color-dark-green);
   font-size: 1.25rem;
   margin-bottom: 1rem;
+}
+
+.checklist-cards .card-body ul {
+  text-align: left;
 }
 
 /* Footer */
@@ -269,17 +268,17 @@ footer .social a:hover .fa-brands {
   color: #808580;
 }
 
-/* ===== CSS-Only Pricing Tabs ===== */
-.css-tabs {
+/* Pricing Tabs */
+.pricing-tabs {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.css-tabs input[type="radio"] {
+.pricing-tabs input[type="radio"] {
   display: none;
 }
 
-.css-tabs label {
+.pricing-tabs label {
   display: inline-block;
   padding: 10px 20px;
   background: #f1f1f1;
@@ -292,17 +291,22 @@ footer .social a:hover .fa-brands {
   transition: background 0.3s ease;
 }
 
-.css-tabs label:hover {
+.pricing-tabs label:hover {
   background: #e2e2e2;
 }
 
-.css-tabs .tab-panel {
+.pricing-tabs .tab-panel {
   display: none;
   padding: 20px;
   border: 1px solid #ccc;
   border-top: none;
   background: white;
   border-radius: 0 0 6px 6px;
+}
+
+.bundle-highlight {
+  background-color: #5E6E5E !important;
+  color: white;
 }
 
 /* Show the selected tab */
