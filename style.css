@@ -42,14 +42,19 @@ img {
   height: auto;
   display: block;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /* Hero Section */
 .hero {
-   height: 100vh;
+  min-height: calc(100vh - 80px); /* accounts for fixed navbar */
   background: url("assets/images/background.png") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 80px; /* prevent text from hiding under navbar */
   color: var(--text-light);
   position: relative;
   z-index: 1;
@@ -201,7 +206,7 @@ img {
   color: var(--text-light);
   width: 100%;
   padding: 0.5rem 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   z-index: 1030;
 }
 /* Checklist section */
@@ -344,23 +349,85 @@ footer .social a:hover .fa-brands {
   }
 
   /* Hero section adjustments */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-toggler {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Hero section */
   .hero {
-    flex-direction: column;
+    padding-top: 100px;       /* extra room for fixed navbar */
+    min-height: 70vh;         /* allow it to size based on content */
+  }
+
+  .hero-overlay {
     align-items: flex-start;
-    justify-content: center;
-    padding: 10vh 5vw;
-    height: auto; /* Allow content height to adjust */
     text-align: left;
   }
 
   .hero h1 {
     font-size: 2.5rem;
-    white-space: normal; /* Allow wrapping */
   }
 
   .hero p {
     font-size: 1rem;
   }
+
+  /* About section */
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Hikes section */
+  .hike-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hike-card .text-end {
+    justify-content: center;
+  }
+
+  .hike-card h3 {
+    margin-top: 20px;
+  }
+
+  .hikes-section .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Checklist cards */
+  .checklist-cards .card {
+    margin-bottom: 20px;
+  }
+
+  /* Footer social icons */
+  .footer-container .social {
+    margin-top: 15px;
+  }
+
+  .footer-container .social a {
+    margin: 0 8px;
+    font-size: 1.3rem;
+  }
+}
 
   /* About section stacking */
   .about-content {
