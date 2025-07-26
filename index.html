@@ -160,7 +160,7 @@
       Scafell Pike stands proudly as England’s highest mountain, reaching a height of 978 meters (3,209 feet). Nestled in the heart of the Lake District National Park, this iconic peak offers not just stunning views, but a real sense of accomplishment for those who reach its summit. The trail can be challenging in places, with rocky paths and steep climbs, but it rewards hikers with panoramic scenery stretching across the Cumbrian mountains and even as far as Scotland on a clear day. Whether you're chasing personal goals or walking in solidarity, Scafell Pike is more than a climb — it’s a meaningful journey.
     </p>
     <div class="text-end mt-auto">
-      <a href="#" class="btn-signup">Sign Up</a>
+      <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
     </div>
   </div>
 </div>
@@ -179,7 +179,7 @@
       Snowdon, known in Welsh as Yr Wyddfa, is the highest mountain in Wales, standing at 1,085 meters (3,560 feet). Located in the stunning Snowdonia National Park, it's one of the most popular and accessible peaks in the UK, offering a choice of well-marked trails for every ability level. Whether you take the gradual Llanberis Path or the steeper Pyg Track, each route promises breathtaking views of glacial valleys, rugged ridgelines, and sparkling lakes. On a clear day, you can even glimpse Ireland across the sea. With its mix of natural beauty, cultural history, and personal challenge, Snowdon is more than just a hike — it’s an unforgettable experience.
     </p>
     <div class="text-end mt-auto">
-      <a href="#" class="btn-signup">Sign Up</a>
+    <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
     </div>
   </div>
 </div>
@@ -198,7 +198,7 @@
       Ben Nevis is the highest mountain in the British Isles, towering at 1,345 meters (4,413 feet) above sea level. Located near the town of Fort William in the Scottish Highlands, it is a legendary peak that draws thousands of climbers and hikers each year. The most popular route to the summit is the Mountain Track (also known as the Tourist Route), offering a steady but rewarding ascent with sweeping views of glens, lochs, and distant ranges. For experienced climbers, the North Face presents dramatic cliffs and technical challenges. At the summit, you'll find the ruins of a weather observatory and, on a clear day, panoramic views stretching across Scotland. Ben Nevis is not just a climb — it’s a rite of passage for outdoor adventurers.
     </p>
     <div class="text-end mt-auto">
-      <a href="#" class="btn-signup">Sign Up</a>
+      <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
     </div>
   </div>
 </div>
@@ -331,8 +331,6 @@
     <h2 class="text-center mb-5">Pricing</h2>
 
     <p class="text-center mb-4">
-      Choose from individual hike options or save with our bundle deal. All hikes include a certified guide, safety support, and unforgettable views!
-    </p>
     <div class="pricing-tabs">
       <!-- Radio Buttons -->
       <input type="radio" name="tabset" id="tab1" checked />
@@ -384,12 +382,15 @@
           <p>Join all three hikes — <strong>Snowdon</strong>, <strong>Ben Nevis</strong>, and <strong>Scafell Pike</strong> — for just <strong>£110</strong>.</p>
           <p>You save <strong>£15</strong> compared to booking individually!</p>
           <p>Perfect if you want the full Blister Sisters challenge across breathtaking landscapes.</p>
-          <a href="#" class="btn-signup mt-3">Book the Bundle</a>
+          <a href="#" class="btn-signup mt-3" data-bs-toggle="modal" data-bs-target="#signupModal" data-hike="bundle">Book the Bundle</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+</section>
+
 
 </main>
 
@@ -421,6 +422,45 @@
         ></a>
       </div>
     </footer>
+
+    <!-- SIGNUP MODAL -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Sign Up for a Hike</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="success.html" method="GET">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="hikeSelect" class="form-label">Select a Hike</label>
+            <select class="form-select" id="hikeSelect" required>
+              <option selected disabled value="">Choose a hike...</option>
+              <option value="scafell">Scafell Pike</option>
+              <option value="snowdon">Snowdon</option>
+              <option value="ben-nevis">Ben Nevis</option>
+               <option value="bundle">All 3 hikes (Bundle)</option> 
+            </select>
+          </div>
+          <button type="submit" class="btn btn-signup w-100">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
