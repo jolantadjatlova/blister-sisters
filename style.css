@@ -372,7 +372,7 @@ footer .social a:hover .fa-brands {
   /* Hero section */
   .hero {
     padding-top: 100px;       /* extra room for fixed navbar */
-    min-height: 70vh;         /* allow it to size based on content */
+    min-height: 100vh;         /* allow it to size based on content */
   }
 
   .hero-overlay {
