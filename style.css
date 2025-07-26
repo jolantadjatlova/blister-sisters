@@ -62,13 +62,13 @@ body {
 }
 /* Hero Section */
 .hero {
-  min-height: calc(100vh - 80px); /* accounts for fixed navbar */
+  min-height: calc(100vh - 80px); /* space for navbar */
   background: url("assets/images/background.png") no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover; /* 'cover' fills, but you may prefer 'contain' for full image */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 80px; /* prevent text from hiding under navbar */
+  padding-top: 80px;
   color: var(--text-light);
   position: relative;
   z-index: 1;
@@ -362,10 +362,15 @@ footer .social a:hover .fa-brands {
     padding-right: 0;
   }
 
-  /* Hero */
+/* Hero */
   .hero {
+    height: 60vh !important;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     padding-top: 100px;
-    min-height: 100vh;
+    padding-bottom: 2rem;
   }
 
   .hero-overlay {
