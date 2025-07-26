@@ -46,6 +46,7 @@ img {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 html,
@@ -258,6 +259,18 @@ body {
 .checklist-cards .card-body ul {
   text-align: left;
 }
+/* Meeting points section */ 
+.meeting-points-section {
+  padding: 60px 20px;
+  background-color: var(--color-soft-beige);
+  scroll-margin-top: 100px;
+}
+
+.meeting-points-section h2 {
+  font-family: var(--font-heading);
+  margin-bottom: 40px;
+  color: var(--color-dark-green);
+}
 
 /* Footer */
 .site-footer {
@@ -285,6 +298,20 @@ footer .social a .fa-brands {
 
 footer .social a:hover .fa-brands {
   color: #808580;
+}
+
+/* Pricing section */
+
+.pricing-section {
+  padding: 60px 20px;
+  background-color: var(--color-soft-beige);
+  scroll-margin-top: 100px;
+}
+
+.pricing-section h2 {
+  font-family: var(--font-heading);
+  margin-bottom: 40px;
+  color: var(--color-dark-green);
 }
 
 /* Pricing Tabs */
