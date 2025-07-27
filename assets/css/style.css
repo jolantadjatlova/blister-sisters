@@ -366,6 +366,13 @@ footer .social a:hover .fa-brands {
 #tab2:checked ~ .tab-panel:nth-of-type(2) {
   display: block;
 }
+.site-footer {
+  background-color: #5E6E5E;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
 
 /* Media queries */
 
