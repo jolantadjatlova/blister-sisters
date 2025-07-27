@@ -458,3 +458,13 @@ footer .social a:hover .fa-brands {
     font-size: 1.3rem;
   }
 }
+@media (max-width: 400px) {
+  html {
+    scroll-padding-top: 320px;
+  }
+}
+@media (min-width: 401px) and (max-width: 768px) {
+  html {
+    scroll-padding-top: 300px;
+  }
+}
