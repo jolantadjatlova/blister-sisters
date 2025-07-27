@@ -385,7 +385,60 @@ footer .social a:hover .fa-brands {
   html {
     scroll-padding-top: 320px;
   }
-}
+}  
+
+/* Tablets */ 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .navbar-collapse {
+    padding: 15px 25px;
+  }
+
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .checklist-section h2,
+  .hikes-section h2,
+  .meeting-points-section h2,
+  .pricing-section h2 {
+    font-size: 2rem;
+  }
+
+  .hike-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .hike-card p {
+    font-size: 1rem;
+  }
+
+  .hike-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .hike-card .text-end {
+    margin-top: 1rem;
+  }
+
+  .btn-signup {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
   .navbar-toggler {
     border: 1px solid #ccc;
@@ -397,6 +450,7 @@ footer .social a:hover .fa-brands {
     padding-left: 0;
     padding-right: 0;
   }
+}
 
 /* Hero */
   .hero {
