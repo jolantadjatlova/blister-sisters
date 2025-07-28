@@ -6,6 +6,8 @@ Blister Sisters is a website created to celebrate a community of women who come 
 
 To view the deployed website click [here](https://jolantadjatlova.github.io/blister-sisters/).
 
+![screenshot](doc/blister-sisters-responsive-display.png) 
+
 # UX
 
 
