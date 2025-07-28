@@ -495,3 +495,25 @@ footer .social a:hover .fa-brands {
     scroll-padding-top: 300px;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    height: 70vh;
+    padding-top: 100px;
+    padding-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+  }
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    scroll-padding-top: 300px;
+  }
+}
+  
+  .hero-overlay h1 {
+    font-size: 3rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1.1rem;
+  }
+}
