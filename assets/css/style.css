@@ -215,6 +215,35 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.hike-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hike-image-wrapper:hover .hover-overlay {
+  opacity: 1;
+}
+
+.hover-overlay .btn {
+  background-color: #B6655D;
+  color: #000000;
+  border: none;
+}
 /* Custom Navbar styles*/
 .custom-navbar {
   background-color: var(--color-light-grey); 
