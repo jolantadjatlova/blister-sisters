@@ -99,9 +99,9 @@ Will be (Information regarding chosen font with reasons will be added here)
 #### Colour Scheme
 The color scheme was generated using Coolors.co, inspired by the website’s hero image of a mountain at sunrise. The palette reflects natural tones of morning light and earthy environment, creating a calm and welcoming atmosphere.
 
-![Color Palette](assets/images/palette.png) 
+![Color Palette](doc/palette.png) 
 
 #### Contrast Grid
 Using Contrast Grid helped identify which colour pairings work best for the website in terms of readability and visual appeal, as well as which ones to avoid to maintain accessibility standards.
 
-![Contrast Grid](assets/images/contrast-grid.png)
+![Contrast Grid](doc/contrast-grid.png)

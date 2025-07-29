@@ -63,7 +63,7 @@ body {
 }
 /* Hero Section */
 .hero {
-  min-height: calc(100vh - 80px); 
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -80,8 +80,9 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 0;
 }
+
 .hero h1 {
   font-size: 5rem;
   margin-bottom: 20px;
@@ -454,26 +455,6 @@ footer .social a:hover .fa-brands {
     padding-right: 0;
   }
 
-/* Hero */
-  .hero {
-    height: 60vh !important;
-    padding-top: 100px;
-    padding-bottom: 2rem;
-  }
-
-  .hero-overlay {
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
   /* About */
   .about-content {
     flex-direction: column;
@@ -538,14 +519,5 @@ footer .social a:hover .fa-brands {
 @media (min-width: 769px) and (max-width: 1024px) {
   html {
     scroll-padding-top: 300px;
-  }
-}
-  
-  .hero-overlay h1 {
-    font-size: 3rem;
-  }
-
-  .hero-overlay p {
-    font-size: 1.1rem;
   }
 }
