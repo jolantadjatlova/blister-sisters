@@ -105,3 +105,13 @@ The color scheme was generated using Coolors.co, inspired by the website’s her
 Using Contrast Grid helped identify which colour pairings work best for the website in terms of readability and visual appeal, as well as which ones to avoid to maintain accessibility standards.
 
 ![Contrast Grid](doc/contrast-grid.png)
+
+| CSS Name             | HEX                       | Usage                                                                |
+|----------------------|---------------------------|----------------------------------------------------------------------|
+| `--color-dark-green` | `#1C2B28`                 | Body text, headings, hike descriptions, footer text                  |
+| `--color-warm-pink`  | `#B6655D`                 | Button backgrounds, hover buttons, call-to-action highlights         |
+| `--color-soft-beige` | `#FDF6E3`                 | Background for body, sections                                        |
+| `--text-light`       | `#ffffff`                 | Hero text, header text, footer text, buttons                         |
+| `--color-light-grey` | `#f8f9fa`                 | Navbar background, checklist card borders                            |
+                                      
+
