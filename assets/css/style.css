@@ -64,7 +64,7 @@ body {
 /* Hero Section */
 .hero {
   min-height: calc(100vh - 80px); /* space for navbar */
-  background: url("../images/background.png") no-repeat center center fixed;
+  background: url("../images/background.webp") no-repeat center center fixed;
   background-size: cover; /* 'cover' fills, but you may prefer 'contain' for full image */
   display: flex;
   align-items: center;
