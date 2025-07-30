@@ -13,6 +13,10 @@
   --color-light-grey: #f8f9fa;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* Global Styles */
 body {
   font-family: var(--font-primary);
@@ -159,7 +163,7 @@ body {
     display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 100%; /* prevents image from growing too tall */
+  max-height: 100%;
 }
 
 .about-section h2 {
@@ -244,7 +248,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,7 +278,7 @@ body {
 .checklist-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: var(--color-soft-beige); /* optional for consistency */
+  background-color: var(--color-soft-beige); 
 }
 
 .checklist-section h2 {
@@ -412,6 +416,22 @@ footer .social a:hover .fa-brands {
 #tab2:checked ~ .tab-panel:nth-of-type(2) {
   display: block;
 }
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-responsive table {
+  min-width: 400px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 0.5rem;
+  text-align: center;
+}
 .site-footer {
   background-color: #5E6E5E;
   color: white;
@@ -516,6 +536,22 @@ footer .social a:hover .fa-brands {
 @media (max-width: 400px) {
   html {
     scroll-padding-top: 320px;
+  }
+  .pricing-tabs {
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  .pricing-tabs .tab-panel {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .pricing-tabs label {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   .hero-overlay p {
