@@ -132,10 +132,16 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 
 ## Existing Features
 
-### Header and Nav
-The navbar is simple, fixed to the top of the page, and includes a custom mountain icon as a logo to reflect the hiking theme. It’s fully responsive using Bootstrap's navbar classes — on smaller screens, the links collapse into a mobile-friendly toggle menu. Navigation is smooth and intuitive, with anchor links that scroll directly to each section of the page like About Us, Hikes, and Pricing.
-
-Favicons for various platforms have been included, such as apple-touch-icon for iOS and PNG icons in 32×32 and 16×16 sizes for browsers and Android devices. This ensures the website displays a recognizable icon in tabs, bookmarks, and mobile home screens.
-
-The layout ensures users can easily find their way around, whether on desktop or mobile.
-![Navbar](doc/navbar-image.png) 
+| Feature | Notes | Screenshot |
+| --- | --- | --- |
+| Navbar | The navbar is simple, fixed to the top of the page, and includes a custom mountain icon as a logo to reflect the hiking theme. It’s fully responsive using Bootstrap's navbar classes — on smaller screens, the links collapse into a mobile-friendly toggle menu. Navigation is smooth and intuitive, with anchor links that scroll directly to each section of the page like About Us, Hikes, and Pricing.|![Navbar](doc/navbar-image.png) 
+| Hero Section | The homepage opens with a strong introduction that highlights the mission of Blister Sisters and sets a calming, empowering tone. With a scenic mountain background and a central message, it invites visitors to explore the community and understand the supportive nature of the hikes. |![hero](doc/hero-section.png)|
+| About Us page | The About Us section introduces the Blister Sisters mission, highlighting the founders’ passion for hiking and women’s wellbeing. It emphasizes the group’s focus on community, conversation, and support through guided hikes in iconic UK landscapes.| ![about us](doc/about-us-page.png)
+| Hikes page| The Hikes page showcases the guided trails offered by Blister Sisters, including Scafell Pike, Snowdon, and Ben Nevis. Each hike section includes a scenic image, detailed description, and a 'Sign Up' button. The layout alternates text and images for visual balance, making it easy for users to explore options and choose their adventure.|![hikes](doc/hikes-page.png)
+| Sign Up form |The Sign Up Form appears as a modal when users click the “Sign Up” button for any hike. It collects key details—name, email address, phone number, and selected hike—allowing users to register quickly and easily. The form is styled consistently with the site’s color palette and includes basic input validation. Upon submission, users are redirected to a confirmation page.|![signup](doc/sign-up-page.png)|
+| Success Page |The Success Page provides users with a friendly confirmation message after submitting the sign-up form. Featuring a bold “Thank You!” header in the brand’s color scheme and a styled ‘Back to Home’ button, the page reassures users that their submission was successful and guides them smoothly back to the homepage.|![success](doc/success-page.png)|
+| Checklist Page | The Checklist page provides a clear, categorized list of essential items for a safe and comfortable hike. It’s divided into Essentials, Weather Dependent, Recommended Clothing, and Optional Extras — helping hikers prepare confidently for all conditions.|![checklist](doc/checklist-page.png)|
+| Meeting Points Page | The Meeting Points page provides hikers with exact meetup locations and times for each trail, complete with embedded Google Maps for easy navigation and planning.|![meetingpoints](doc/meeting-points-page.png)|
+| Pricing Page | The Pricing page outlines individual hike costs along with a discounted bundle offer for all three hikes. It helps users compare value and choose based on their experience and preferences.|![pricing](doc/pricing-page.png)|
+| Footer | The footer includes contact information, social media icons for Instagram, Facebook, and Twitter, and a copyright notice. It provides users with a clear way to connect and reinforces brand presence across all pages.|![footer](doc/footer-page.png) |
+| 404 Page | 
