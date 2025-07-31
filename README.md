@@ -149,3 +149,36 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 ### Future Features
 - **Expanded Hike Listings**: Expand available trails and introduce filter options based on location, duration, or difficulty to accommodate different user preferences.
 - **Booking & Payment System**: Integrate online booking and secure payment functionality so users can reserve and pay for guided hikes directly through the site.
+
+# Tools / Technologies
+
+| Tools / Tech                                          | Purpose                                                |
+|------------------------------------------------------|--------------------------------------------------------|
+|[Git](https://git-scm.com/)                           | Track changes and manage code history.                 |
+|[GitHub](https://github.com)                          | Store and share the repository.                        |
+|[VS Code](https://code.visualstudio.com)              | Writing and organizing all project files.              |
+|[HTML](https://en.wikipedia.org/wiki/HTML)            | Building the basic structure of website.               |
+|[CSS](https://en.wikipedia.org/wiki/CSS)              | Designing layout and visual elements.                  |
+|[Bootstrap](https://getbootstrap.com)                 | Used for responsive layout and reusable UI components. |
+|[Balsamiq](https://balsamiq.com/wireframes)           | Create wireframes.                                     |
+|[Coolors](https://coolors.co/)                        | Generating the project’s colour palette.               |
+|[Eight Shapes](https://contrast-grid.eightshapes.com/)| Generating contrast grid.                              |
+|[Pixlr](https://pixlr.com/)                           | Resizing and converting images.                        |
+|[Font Awesome](https://fontawesome.com)               | Adding social icons and other visual elements.         |
+|[ChatGPT](https://chat.openai.com)                    | Assisted in writing content and generated all images.  |
+|[W3Schools](https://www.w3schools.com)                | Reference for HTML, CSS, and Bootstrap syntax and tips.|
+|[Stack Overflow](https://stackoverflow.com)           | Resource for debugging and resolving technical issues. |
+
+# Testing
+## Bugs
+
+## Responsiveness Test
+
+## Code Validation
+
+### HTML
+
+## CSS
+
+
+
