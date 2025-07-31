@@ -19,12 +19,111 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
 
+   <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg custom-navbar">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <a class="navbar-brand" href="#">
+          <img class="logo-img"
+            src="assets/favicon/android-chrome-512x512.png"
+            alt="Blister Sisters Logo"
+    
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hikes">Hikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#checklist">Checklist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meeting-points">Meeting Points</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
   <!-- MAIN CONTENT -->
-  <main class="container text-center my-5">
+  <main class="container text-center flex-grow-1" style="margin-top: 120px;">
     <h1 class="display-4 mb-3">Thank You!</h1>
     <p class="lead">Your form has been submitted.</p>
     <a href="index.html" class="btn-signup">Back to Home</a>
   </main>
+
+  <!-- FOOTER -->
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      
+      <!-- Contact Us -->
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h6>Contact Us</h6>
+        <p>hello@blistersisters.com</p>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="col-md-4 mb-3 mb-md-0 text-center">
+        <h6>Follow Us</h6>
+        <div class="social">
+      <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Instagram page"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Facebook page"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.x.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our X page"
+        >
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="col-md-4 text-md-end text-center">
+        <h6>Copyright</h6>
+        <p>&copy; 2025 Blister Sisters. All rights reserved.</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
 
   <!-- Bootstrap JS -->
   <script
