@@ -145,3 +145,7 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 | Pricing Page | The Pricing page outlines individual hike costs along with a discounted bundle offer for all three hikes. It helps users compare value and choose based on their experience and preferences.|![pricing](doc/pricing-page.png)|
 | 404 Page | A dedicated 404 page is designed to assist users who reach a missing or incorrect URL. Consistent with the site’s overall style, it supports easy navigation back to the homepage and reinforces a polished user experience.|![404html](doc/404.html-page.png) |
 | Footer | The footer includes contact information, social media icons for Instagram, Facebook, and Twitter, and a copyright notice. It provides users with a clear way to connect and reinforces brand presence across all pages. | ![footer](doc/footer-page.png) |
+
+### Future Features
+- **Expanded Hike Listings**: Expand available trails and introduce filter options based on location, duration, or difficulty to accommodate different user preferences.
+- **Booking & Payment System**: Integrate online booking and secure payment functionality so users can reserve and pay for guided hikes directly through the site.
