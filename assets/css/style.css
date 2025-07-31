@@ -331,6 +331,22 @@ body {
   font-size: 0.9rem;
 }
 
+.site-footer .social a {
+   margin: 0 10px;
+  font-size: 1.75rem; /* larger size */
+}
+
+.site-footer .social a {
+  text-decoration: none;
+  outline: none;
+}
+
+.site-footer .social a:focus,
+.site-footer .social a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
 .footer-container a {
   letter-spacing: normal;
 }
