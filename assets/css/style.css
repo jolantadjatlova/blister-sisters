@@ -526,20 +526,36 @@ table th {
 
   .pricing-tabs {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 0.25rem;
     box-sizing: border-box;
+  }
+.table-responsive {
+     width: 100%;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-responsive table {
+ min-width: 360px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+  }
+
+  .table-responsive th,
+  .table-responsive td {
+    white-space: normal;  
+    padding: 6px;
   }
 
   .pricing-tabs .tab-panel {
-    padding: 1rem;
-    font-size: 0.95rem;
+    padding: 0.25rem;
   }
 
+
   .pricing-tabs label {
-    width: 100%;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
+   font-size: 0.9rem 
 
   .hero-overlay p {
     font-size: 0.85rem;
@@ -610,6 +626,19 @@ table th {
 .about-image {
   margin-top: 1.5rem;
 }
+.hikes-section p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .hikes-section h3 {
+    font-size: 1.05rem; /* Optional: keep headings slightly larger */
+  }
+
+  .btn-signup {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
 
 @media (min-width: 401px) and (max-width: 768px) {
   html {
