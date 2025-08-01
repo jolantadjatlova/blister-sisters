@@ -444,7 +444,145 @@ table th {
 }
 
 /* Media queries */
+@media (max-width: 400px) {
+  html {
+    scroll-padding-top: 320px;
+  }
 
+  body {
+    font-size: 0.9rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+  }
+
+  .pricing-tabs {
+    width: 100%;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .table-responsive table {
+    min-width: 360px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+  }
+
+  .table-responsive th,
+  .table-responsive td {
+    white-space: normal;
+    padding: 6px;
+  }
+
+  .pricing-tabs .tab-panel {
+    padding: 0.25rem;
+  }
+
+  .pricing-tabs label {
+    font-size: 0.9rem;
+  }
+
+  .hero-overlay p {
+    font-size: 0.85rem;
+    line-height: 1.1;
+    word-break: break-word;
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+    white-space: normal;
+  }
+
+  .hero-overlay h1 {
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    white-space: normal;
+  }
+
+  .hero-overlay {
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+
+  .about-section p,
+  .hike-card p,
+  .checklist-section li,
+  .pricing-section p,
+  .site-footer p {
+    font-size: 0.85rem;
+  }
+
+  .btn-signup {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+  .about-section .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about-section {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .about-text p {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    word-break: break-word;
+  }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-image {
+    margin-top: 1.5rem;
+  }
+  .hikes-section p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .hikes-section h3 {
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+  html {
+    scroll-padding-top: 300px;
+  }
+
+  .btn-signup {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
 @media (max-width: 768px) {
   /* Navbar */
   .navbar-collapse {
@@ -506,145 +644,6 @@ table th {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 400px) {
-  html {
-    scroll-padding-top: 320px;
-  }
-
-  body {
-    font-size: 0.9rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 1rem;
-  }
-
-  .pricing-tabs {
-    width: 100%;
-    padding: 0 0.25rem;
-    box-sizing: border-box;
-  }
-.table-responsive {
-     width: 100%;
-    overflow-x: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.table-responsive table {
- min-width: 360px;
-    font-size: 0.8rem;
-    margin: 0 auto;
-}
-  }
-
-  .table-responsive th,
-  .table-responsive td {
-    white-space: normal;  
-    padding: 6px;
-  }
-
-  .pricing-tabs .tab-panel {
-    padding: 0.25rem;
-  }
-
-
-  .pricing-tabs label {
-   font-size: 0.9rem 
-
-  .hero-overlay p {
-    font-size: 0.85rem;
-    line-height: 1.1;
-    word-break: break-word;
-    text-align: center;
-    max-width: 95%;
-    margin: 0 auto;
-    white-space: normal;
-  }
-
-  .hero-overlay h1 {
-    font-size: clamp(1.8rem, 7vw, 2.6rem);
-    text-align: center;
-    line-height: 1.1;
-    margin-bottom: 0.5rem;
-    white-space: normal;
-  }
-
-  .hero-overlay {
-    align-items: center;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: center;
-  }
-
-  .about-section p,
-  .hike-card p,
-  .checklist-section li,
-  .pricing-section p,
-  .site-footer p {
-    font-size: 0.85rem;
-  }
-
-  .btn-signup {
-    font-size: 0.9rem;
-    padding: 6px 14px;
-  }
-  .about-section .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-.about-section {
-  padding: 1rem;
-  text-align: center;
-}
-
-.about-text p {
-  text-align: center;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  margin: 0 auto;
-  word-break: break-word;
-}
-
-.about-section h2 {
-  text-align: center;
-}
-
-.about-text {
-  max-width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  margin: 0 auto;
-}
-.about-image {
-  margin-top: 1.5rem;
-}
-.hikes-section p {
-    font-size: 0.85rem;
-    line-height: 1.4;
-  }
-
-  .hikes-section h3 {
-    font-size: 1.05rem; /* Optional: keep headings slightly larger */
-  }
-
-  .btn-signup {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-
-@media (min-width: 401px) and (max-width: 768px) {
-  html {
-    scroll-padding-top: 300px;
-  }
-}
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero {
     height: 70vh;
@@ -655,3 +654,4 @@ table th {
     scroll-padding-top: 300px;
   }
 }
+
