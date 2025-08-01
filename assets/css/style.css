@@ -186,7 +186,7 @@ body {
 
 .btn-signup {
   background-color: var(--color-warm-pink);
-  color: white;
+  color: #FFFFFF;
   border: none;
   transition: background-color 0.3s ease;
   padding: 8px 18px;
@@ -391,19 +391,19 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-top: none;
-  background: white;
+  background: #FFFFFF;
   border-radius: 0 0 6px 6px;
 }
 
 .bundle-highlight {
   background-color: #5E6E5E !important;
-  color: white;
+  color: #FFFFFF;
 }
 
 #tab1:checked ~ label[for="tab1"],
 #tab2:checked ~ label[for="tab2"] {
-  background: white;
-  border-bottom: 1px solid white;
+  background: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 #tab1:checked ~ .tab-panel:nth-of-type(1),
@@ -428,7 +428,7 @@ table th {
 }
 .site-footer {
   background-color: #5E6E5E;
-  color: white;
+  color: #FFFFFF;
   padding: 20px 0;
   text-align: center;
   font-size: 0.9rem;
@@ -508,9 +508,18 @@ table th {
   }
 }
 @media (max-width: 400px) {
-  html {
+   html {
     scroll-padding-top: 320px;
   }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+  }
+
   .pricing-tabs {
     width: 100%;
     padding: 0 1rem;
@@ -529,35 +538,73 @@ table th {
   }
 
   .hero-overlay p {
-    white-space: nowrap;
     font-size: 0.85rem;
-   line-height: 1.1;
+    line-height: 1.1;
     word-break: break-word;
     text-align: center;
-     max-width: 95%;
+    max-width: 95%;
     margin: 0 auto;
+    white-space: normal;
   }
 
   .hero-overlay h1 {
     font-size: clamp(1.8rem, 7vw, 2.6rem);
     text-align: center;
-   line-height: 1.1;
+    line-height: 1.1;
     margin-bottom: 0.5rem;
     white-space: normal;
   }
 
   .hero-overlay {
-    align-items: flex-start;
+    align-items: center;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     text-align: center;
   }
- .hero-overlay h1,
-  .hero-overlay p {
-    white-space: normal;
-    text-align: center;
+
+  .about-section p,
+  .hike-card p,
+  .checklist-section li,
+  .pricing-section p,
+  .site-footer p {
+    font-size: 0.85rem;
+  }
+
+  .btn-signup {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+    .about-section .container {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
+ .about-section {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .about-text p {
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  word-break: break-word;
+  }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-text {
+      max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+
 @media (min-width: 401px) and (max-width: 768px) {
   html {
     scroll-padding-top: 300px;
