@@ -1,19 +1,21 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* CSS Variables */
 :root {
-  --font-primary: 'Lato', sans-serif;
-  --font-heading: 'EB Garamond', serif;
-  --color-dark-green: #1C2B28;
-  --color-warm-pink: #B6655d;
-  --color-soft-beige: #FDF6E3;
+  --font-primary: "Lato", sans-serif;
+  --font-heading: "EB Garamond", serif;
+  --color-dark-green: #1c2b28;
+  --color-warm-pink: #b6655d;
+  --color-soft-beige: #fdf6e3;
   --color-overlay: rgba(86, 46, 45, 0.5);
   --text-light: #ffffff;
   --color-light-grey: #f8f9fa;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -39,7 +41,7 @@ h1 {
 
 .logo-img {
   height: 60px;
-  width: auto; 
+  width: auto;
 }
 
 img {
@@ -69,14 +71,14 @@ body {
 .hero {
   min-height: 100vh;
   display: flex;
-  align-items: center;        
-  justify-content: flex-start; 
+  align-items: center;
+  justify-content: flex-start;
   padding: 80px 1rem 2rem;
   color: var(--text-light);
   position: relative;
   overflow: hidden;
   text-align: left;
-  flex-direction: row;         
+  flex-direction: row;
 }
 .hero-img {
   position: absolute;
@@ -99,7 +101,7 @@ body {
   color: var(--text-light);
 }
 .hero-overlay {
- position: relative;
+  position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -114,11 +116,11 @@ body {
 .hero-overlay h1 {
   color: var(--text-light);
   margin-bottom: 20px;
- font-size: clamp(2rem, 5.5vw, 4rem);
+  font-size: clamp(2rem, 5.5vw, 4rem);
   white-space: nowrap;
   text-align: left;
   line-height: 1.1;
-   font-weight: 800;
+  font-weight: 800;
 }
 
 .hero-overlay p {
@@ -131,7 +133,7 @@ body {
 /* About section */
 
 .about-image img {
-   height: auto;
+  height: auto;
   max-height: 450px;
   width: 100%;
   max-width: 100%;
@@ -139,7 +141,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-  
+
 .about-section {
   padding: 60px 20px;
   margin-top: 20px;
@@ -160,7 +162,7 @@ body {
   min-width: 300px;
 }
 .about-image {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   max-height: 100%;
@@ -174,7 +176,7 @@ body {
 /* Hikes Section */
 .hikes-section {
   padding: 60px 20px;
-  background-color: var(--color-soft-beige); 
+  background-color: var(--color-soft-beige);
 }
 
 .hikes-section h2 {
@@ -183,10 +185,9 @@ body {
   color: var(--color-dark-green);
 }
 
-
 .btn-signup {
   background-color: var(--color-warm-pink);
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   transition: background-color 0.3s ease;
   padding: 8px 18px;
@@ -218,15 +219,14 @@ body {
 }
 
 .hike-card h3 {
-   font-family: var(--font-heading);
+  font-family: var(--font-heading);
   margin-bottom: 15px;
   font-size: 1.75rem;
   color: var(--color-dark-green);
-  
 }
 
 .hike-card p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
   color: var(--color-dark-green);
   font-size: inherit;
   line-height: 1.6;
@@ -248,7 +248,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,13 +261,13 @@ body {
 }
 
 .hover-overlay .btn {
-  background-color: #B6655D;
+  background-color: #b6655d;
   color: #000000;
   border: none;
 }
 /* Custom Navbar styles*/
 .custom-navbar {
-  background-color: var(--color-light-grey); 
+  background-color: var(--color-light-grey);
   color: var(--text-light);
   width: 100%;
   padding: 0.5rem 1rem;
@@ -278,7 +278,7 @@ body {
 .checklist-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: var(--color-soft-beige); 
+  background-color: var(--color-soft-beige);
 }
 
 .checklist-section h2 {
@@ -309,7 +309,7 @@ body {
 .checklist-cards .card-body ul {
   text-align: left;
 }
-/* Meeting points section */ 
+/* Meeting points section */
 .meeting-points-section {
   padding: 60px 20px;
   background-color: var(--color-soft-beige);
@@ -344,7 +344,6 @@ body {
 .site-footer .fa-brands:hover {
   color: #808580;
 }
-
 
 /* Pricing section */
 
@@ -391,19 +390,19 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-top: none;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 0 0 6px 6px;
 }
 
 .bundle-highlight {
-  background-color: #5E6E5E !important;
-  color: #FFFFFF;
+  background-color: #5e6e5e !important;
+  color: #ffffff;
 }
 
 #tab1:checked ~ label[for="tab1"],
 #tab2:checked ~ label[for="tab2"] {
-  background: #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 #tab1:checked ~ .tab-panel:nth-of-type(1),
@@ -427,8 +426,8 @@ table th {
   text-align: center;
 }
 .site-footer {
-  background-color: #5E6E5E;
-  color: #FFFFFF;
+  background-color: #5e6e5e;
+  color: #ffffff;
   padding: 20px 0;
   text-align: center;
   font-size: 0.9rem;
@@ -465,11 +464,11 @@ table th {
     padding-left: 0;
     padding-right: 0;
   }
-    .hero-overlay {
+  .hero-overlay {
     align-items: center;
     text-align: center;
     padding-left: 1rem;
-    padding-right: 1rem; 
+    padding-right: 1rem;
   }
 
   /* About */
@@ -508,7 +507,7 @@ table th {
   }
 }
 @media (max-width: 400px) {
-   html {
+  html {
     scroll-padding-top: 320px;
   }
 
@@ -516,7 +515,12 @@ table th {
     font-size: 0.9rem;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-size: 1rem;
   }
 
@@ -574,36 +578,38 @@ table th {
     font-size: 0.9rem;
     padding: 6px 14px;
   }
-    .about-section .container {
+  .about-section .container {
     padding-left: 0;
     padding-right: 0;
   }
 }
- .about-section {
-    padding: 1rem;
-    text-align: center;
-  }
+.about-section {
+  padding: 1rem;
+  text-align: center;
+}
 
-  .about-text p {
+.about-text p {
   text-align: center;
   font-size: 0.85rem;
   line-height: 1.5;
   margin: 0 auto;
   word-break: break-word;
-  }
+}
 
-  .about-section h2 {
-    text-align: center;
-  }
+.about-section h2 {
+  text-align: center;
+}
 
-  .about-text {
-      max-width: 100%;
+.about-text {
+  max-width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
   margin: 0 auto;
-  }
-
+}
+.about-image {
+  margin-top: 1.5rem;
+}
 
 @media (min-width: 401px) and (max-width: 768px) {
   html {
