@@ -39,7 +39,7 @@ h1 {
 
 .logo-img {
   height: 60px;
-  width: auto; /* Keeps the aspect ratio */
+  width: auto; 
 }
 
 img {
@@ -323,20 +323,9 @@ body {
 }
 
 /* Footer */
-.site-footer {
-  background-color: #f8f9fa;
-  color: var(--color-dark-green);
-  padding: 20px 0;
-  text-align: center;
-  font-size: 0.9rem;
-}
-
 .site-footer .social a {
-   margin: 0 10px;
-  font-size: 1.75rem; /* larger size */
-}
-
-.site-footer .social a {
+  margin: 0 10px;
+  font-size: 1.75rem;
   text-decoration: none;
   outline: none;
 }
@@ -347,24 +336,15 @@ body {
   outline: none;
 }
 
-.footer-container a {
-  letter-spacing: normal;
-}
-
-.footer-container .social a {
-  margin: 0 10px;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-footer .social a .fa-brands {
+.site-footer .fa-brands {
   color: var(--color-dark-green);
   transition: color 0.3s ease;
 }
 
-footer .social a:hover .fa-brands {
+.site-footer .fa-brands:hover {
   color: #808580;
 }
+
 
 /* Pricing section */
 
@@ -380,7 +360,6 @@ footer .social a:hover .fa-brands {
   color: var(--color-dark-green);
 }
 
-/* Pricing Tabs */
 .pricing-tabs {
   max-width: 800px;
   margin: 0 auto;
@@ -421,7 +400,6 @@ footer .social a:hover .fa-brands {
   color: white;
 }
 
-/* Show the selected tab */
 #tab1:checked ~ label[for="tab1"],
 #tab2:checked ~ label[for="tab2"] {
   background: white;
@@ -463,18 +441,8 @@ table th {
 .site-footer p {
   margin: 0;
   text-align: center;
+  font-size: 1rem;
 }
-.site-footer h6,
-.site-footer p {
-  font-size: 1rem; 
-}
-/* Social Icons */
-.site-footer .social a {
-   margin: 0 10px;
-  font-size: 1.75rem; /* larger size */
-
-}
-
 
 /* Media queries */
 
@@ -537,16 +505,6 @@ table th {
   /* Checklist */
   .checklist-cards .card {
     margin-bottom: 20px;
-  }
-
-  /* Footer */
-  .footer-container .social {
-    margin-top: 15px;
-  }
-
-  .footer-container .social a {
-    margin: 0 8px;
-    font-size: 1.3rem;
   }
 }
 @media (max-width: 400px) {
@@ -611,8 +569,6 @@ table th {
     padding-top: 100px;
     padding-bottom: 2rem;
   }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
   html {
     scroll-padding-top: 300px;
   }
