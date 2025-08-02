@@ -35,6 +35,8 @@
       rel="stylesheet"
     />
 <link rel="preload" href="assets/images/background.webp" as="image" type="image/webp">
+
+<link rel="preload" href="assets/css/style.css" as="style">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Blister Sisters</title>
@@ -150,7 +152,7 @@
   <!-- Hike 1: -->
 <div class="row align-items-stretch mb-5 pb-4 hike-card">
   <div class="col-md-6 order-1 order-md-2">
-    <div class="hike-image-wrapper position-relative">
+    <div class="hike-image-wrapper position-relative" style="margin-top: 12px;">
       <img src="assets/images/scafell-pike.jpg" loading="lazy" alt="Scafell Pike" class="img-fluid rounded" width="600" height="400"/>
       <div class="hover-overlay d-flex justify-content-center align-items-center">
         <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
@@ -172,7 +174,7 @@
 <!-- Hike 2 -->
 <div class="row align-items-stretch mb-5 pb-4 hike-card">
   <div class="col-md-6 order-1 order-md-1">
-    <div class="hike-image-wrapper position-relative">
+    <div class="hike-image-wrapper position-relative" style="margin-top: 30px;">
       <img src="assets/images/snowdon.jpg" alt="Snowdon" loading="lazy" class="img-fluid rounded" width="600" height="400"/>
       <div class="hover-overlay d-flex justify-content-center align-items-center">
         <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
@@ -194,7 +196,7 @@
    <!-- Hike 3 -->
 <div class="row align-items-stretch mb-5 pb-4 hike-card">
   <div class="col-md-6 order-1 order-md-2">
-    <div class="hike-image-wrapper position-relative">
+     <div class="hike-image-wrapper position-relative" style="margin-top: 25px;">
       <img src="assets/images/ben-nevis.jpg" alt="Ben Nevis" loading="lazy" class="img-fluid rounded" width="600" height="400"/>
       <div class="hover-overlay d-flex justify-content-center align-items-center">
         <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
@@ -346,10 +348,10 @@
         <input type="radio" name="tabset" id="tab1" checked />
         <label for="tab1">Pricing Table</label>
 
-        <input type="radio" name="tabset" id="tab2" />
+        <input type="radio" name="tabset" id="tab2"/>
         <label for="tab2">Bundle Offer</label>
 
-        <div class="tab-panel">
+        <div class="tab-panel" id="panel1">
           <div class="table-responsive">
             <table class="table table-bordered text-center align-middle">
               <thead class="table-light">
@@ -385,7 +387,7 @@
           </div>
         </div>
 
-        <div class="tab-panel">
+        <div class="tab-panel" id="panel2">
           <div class="text-center">
             <h4>Bundle Offer</h4>
             <p>Join all three hikes — <strong>Snowdon</strong>, <strong>Ben Nevis</strong>, and <strong>Scafell Pike</strong> — for just <strong>£110</strong>.</p>
@@ -460,15 +462,15 @@
         <form action="success.html" method="GET">
           <div class="mb-3">
             <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" required>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="email" required>
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" required>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
           </div>
           <div class="mb-3">
             <label for="hikeSelect" class="form-label">Select a Hike</label>
