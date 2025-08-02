@@ -180,7 +180,18 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 
 ### HTML
 
-## CSS
+### CSS
+
+## User Story Testing
+| User Story                                    |Result | Pass | Evidence |
+|-----------------------------------------------|------------------------------------------------------|------|----------|
+| As a user, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find hiking information quickly and efficiently without frustration. | The navbar provides clear links to each section, and the responsive layout ensures usability on all screen sizes. | P |                     |
+| As a user, I want to see high quality images and engaging descriptions of hiking trails and scenery, so I can decide if it's the right place for me to explore. | Each hike section includes a high-quality image and a detailed, inviting description of the trail. | P | |
+| As a user, I need to find hiking locations and contact details for inquiries, so I can plan my hike confidently. | The Hikes section provides detailed location info, and contact details are available in the footer and Contact page. | P | |
+| As a user, I want clear and helpful information about what to pack for a hike, so I feel safe and prepared on the day. | The Checklist section provides categorized packing lists covering essentials, clothing, weather-dependent gear, and optional extras. | P | |
+| As a user, I want to sign up for my chosen hike/s through a simple form. | A modal sign-up form allows users to register for individual hikes or the bundle, with fields for name, email, phone, and hike selection. | P | |
+| As a user, I want to compare hike prices and available bundle deals, so I can choose an option that fits my budget. | The Pricing section includes a detailed table showing individual hike costs and a clearly marked discounted bundle offer. | P | |
+
 
 
 
