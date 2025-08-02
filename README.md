@@ -186,6 +186,7 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 ## Code Validation
 
 ### HTML
+I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") to test my html files.
 
 ### CSS
 
