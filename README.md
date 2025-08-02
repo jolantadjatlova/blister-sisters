@@ -70,7 +70,7 @@ The website will feature:
 ---
 ## Wireframes
 
-Wireframes were designed using Balsamiq tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view.
+Wireframes were designed using [Balsamiq](https://balsamiq.com/) tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view.
 
 ### Home Page
 ![Home Page](doc/home-page-wframe.png)
