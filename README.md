@@ -37,8 +37,7 @@ To view the deployed website click [here](https://jolantadjatlova.github.io/blis
  frustration.
  - As a user,  I want to see high quality images and engaging descriptions of hiking
  trails and scenery, so I can decide if it's the right place for me to explore.
- - As a user,  I need to find hiking locations, contact details for inquiries,
- and essential safety information, so I can plan my hike confidently.
+ - As a user,  I need to find hiking locations, contact details for inquiries, so I can plan my hike confidently.
  - As a user, I want to sign up for my chosen hike/s through a simple form.
  - As a user, I want clear and helpful information about what to pack for a hike, so I feel safe and prepared on the day.
  - As a user, I want to compare hike prices and available bundle deals, so I can choose an option that fits my budget.
@@ -94,7 +93,9 @@ Wireframes were designed using Balsamiq tool. Following best practices, mobile v
 ## Design Choices
 
 ### Typography
-Will be (Information regarding chosen font with reasons will be added here)
+The primary font used for this website is [Lato](https://fonts.google.com/specimen/Lato?query=lato "Lato"), a clean and modern sans-serif typeface chosen for its readability and friendly appearance. It is used across all body text to ensure a comfortable reading experience on both desktop and mobile devices.
+
+The heading font is [EB Garamond](https://fonts.google.com/specimen/EB+Garamond "EB Garamond"), a classic serif typeface that adds elegance and warmth. Its use in section headings and titles creates a sense of contrast and visual hierarchy, pairing well with the simplicity of Lato.
 
 ### Colour Scheme
 The color scheme was generated using Coolors.co, inspired by the website’s hero image of a mountain at sunrise. The palette reflects natural tones of morning light and earthy environment, creating a calm and welcoming atmosphere.
