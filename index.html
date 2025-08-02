@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/favicon/apple-touch-icon.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="assets/favicon/favicon-32x32.png"
-    >
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="assets/favicon/favicon-16x16.png"
-    >
+    />
 
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    >
+    />
 
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-    >
-<link rel="preload" href="assets/images/background.webp" as="image" type="image/webp">
+    />
+    <link
+      rel="preload"
+      href="assets/images/background.webp"
+      as="image"
+      type="image/webp"
+    />
 
-<link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/css/style.css" as="style" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Blister Sisters</title>
-
   </head>
 
   <body>
@@ -50,11 +54,11 @@
         class="container-fluid d-flex justify-content-between align-items-center"
       >
         <a class="navbar-brand" href="#">
-          <img class="logo-img"
+          <img
+            class="logo-img"
             src="assets/favicon/android-chrome-512x512.png"
             alt="Blister Sisters Logo"
-    
-          >
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -93,410 +97,592 @@
     </nav>
 
     <main>
+      <!-- HERO SECTION -->
+      <header class="hero" id="hero">
+        <img
+          src="assets/images/background.webp"
+          alt="Mountain background"
+          class="hero-img"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay">
+          <h1>BLISTER SISTERS</h1>
+          <p>Walking together. Healing together.</p>
+        </div>
+      </header>
 
-    <!-- HERO SECTION -->
-    <header class="hero" id="hero">
-      <img
-    src="assets/images/background.webp"
-    alt="Mountain background"
-    class="hero-img"
-    loading="eager"
-    fetchpriority="high"
-  >
-      <div class="hero-overlay">
-        <h1>BLISTER SISTERS</h1>
-        <p>Walking together. Healing together.</p>
-      </div>
-    </header>
+      <!-- ABOUT SECTION -->
+      <section class="about-section fs-5" id="about">
+        <div class="container">
+          <h2 class="text-center mb-4">About Us</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="about-text">
+                <p>
+                  <strong>Blister Sisters</strong> was founded by two women with
+                  a shared love for hiking — and an even deeper passion for
+                  supporting other women. We organise guided hikes across some
+                  of the most breathtaking landscapes in England, from the
+                  rugged beauty of Scafell Pike to the windswept heights of Ben
+                  Nevis.
+                </p>
+                <p>But this isn’t just about the miles.</p>
+                <p>
+                  Blister Sisters is a women-only walking club where the trail
+                  becomes a space for connection. Alongside the physical
+                  journey, we make room for open conversation, shared laughter,
+                  and sometimes even a little venting about life’s ups and
+                  downs. Whether you're navigating a tough patch, celebrating a
+                  win, or just need some fresh air and female company — we walk
+                  together.
+                </p>
+                <p>
+                  With every step, we’re building a community that values
+                  movement, mental wellbeing, and meaningful chats (yes, even
+                  the grumbles count).
+                </p>
+                <p>
+                  <strong>Come for the hike. Stay for the sisterhood.</strong>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-image"></div>
 
-
-    <!-- ABOUT SECTION -->
-    <section class="about-section fs-5" id="about">
-    <div class="container">
-      <h2 class="text-center mb-4">About Us</h2>
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <div class="about-text">
-         <p><strong>Blister Sisters</strong> was founded by two women with a shared love for hiking — and an even deeper passion for supporting other women. We organise guided hikes across some of the most breathtaking landscapes in England, from the rugged beauty of Scafell Pike to the windswept heights of Ben Nevis.
-  </p>
-  <p>
-    But this isn’t just about the miles.
-  </p>
-  <p>
-    Blister Sisters is a women-only walking club where the trail becomes a space for connection. Alongside the physical journey, we make room for open conversation, shared laughter, and sometimes even a little venting about life’s ups and downs. Whether you're navigating a tough patch, celebrating a win, or just need some fresh air and female company — we walk together.
-  </p>
-  <p>
-    With every step, we’re building a community that values movement, mental wellbeing, and meaningful chats (yes, even the grumbles count).
-  </p>
-  <p>
-    <strong>Come for the hike. Stay for the sisterhood.</strong>
-  </p>
-</div>
-   
-    </div>
-<div class="col-md-6">
-    <div class="about-image">
-      </div>
-
-      <img src="assets/images/two-women.jpg" alt="Two women standing on a mountain" class="img-fluid rounded">
-    </div>
-  </div>
-  </div>
-</section>
-
-    <hr class="my-5">
-
-    <!-- HIKES SECTION -->
-<section class="hikes-section fs-5" id="hikes">
-  <div class="container">
-    <h2 class="text-center mb-5">Hikes</h2>
-
-  <!-- Hike 1: -->
-<div class="row align-items-stretch mb-5 pb-4 hike-card">
-  <div class="col-md-6 order-1 order-md-2">
-    <div class="hike-image-wrapper position-relative" style="margin-top: 12px;">
-      <img src="assets/images/scafell-pike.jpg" loading="lazy" alt="Scafell Pike" class="img-fluid rounded" width="600" height="400">
-      <div class="hover-overlay d-flex justify-content-center align-items-center">
-        <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 order-2 order-md-1 d-flex flex-column">
-    <h3>Scafell Pike</h3>
-    <p>
-      Scafell Pike stands proudly as England’s highest mountain, reaching a height of 978 meters (3,209 feet). Nestled in the heart of the Lake District National Park, this iconic peak offers not just stunning views, but a real sense of accomplishment for those who reach its summit. The trail can be challenging in places, with rocky paths and steep climbs, but it rewards hikers with panoramic scenery stretching across the Cumbrian mountains and even as far as Scotland on a clear day. Whether you're chasing personal goals or walking in solidarity, Scafell Pike is more than a climb — it’s a meaningful journey.
-    </p>
-    <div class="text-start mt-auto">
-      <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-    </div>
-  </div>
-</div>
-
-<!-- Hike 2 -->
-<div class="row align-items-stretch mb-5 pb-4 hike-card">
-  <div class="col-md-6 order-1 order-md-1">
-    <div class="hike-image-wrapper position-relative" style="margin-top: 30px;">
-      <img src="assets/images/snowdon.jpg" alt="Snowdon" loading="lazy" class="img-fluid rounded" width="600" height="400">
-      <div class="hover-overlay d-flex justify-content-center align-items-center">
-        <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 order-2 order-md-2 d-flex flex-column">
-    <h3>Snowdon</h3>
-    <p>
-      Snowdon, known in Welsh as Yr Wyddfa, is the highest mountain in Wales, standing at 1,085 meters (3,560 feet). Located in the stunning Snowdonia National Park, it's one of the most popular and accessible peaks in the UK, offering a choice of well-marked trails for every ability level. Whether you take the gradual Llanberis Path or the steeper Pyg Track, each route promises breathtaking views of glacial valleys, rugged ridgelines, and sparkling lakes. On a clear day, you can even glimpse Ireland across the sea. With its mix of natural beauty, cultural history, and personal challenge, Snowdon is more than just a hike — it’s an unforgettable experience.
-    </p>
-    <div class="text-start mt-auto">
-      <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-    </div>
-  </div>
-</div>
-
-   <!-- Hike 3 -->
-<div class="row align-items-stretch mb-5 pb-4 hike-card">
-  <div class="col-md-6 order-1 order-md-2">
-     <div class="hike-image-wrapper position-relative" style="margin-top: 25px;">
-      <img src="assets/images/ben-nevis.jpg" alt="Ben Nevis" loading="lazy" class="img-fluid rounded" width="600" height="400">
-      <div class="hover-overlay d-flex justify-content-center align-items-center">
-        <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 order-2 order-md-1 d-flex flex-column">
-    <h3>Ben Nevis</h3>
-    <p>
-      Ben Nevis is the highest mountain in the British Isles, towering at 1,345 meters (4,413 feet) above sea level. Located near the town of Fort William in the Scottish Highlands, it is a legendary peak that draws thousands of climbers and hikers each year. The most popular route to the summit is the Mountain Track (also known as the Tourist Route), offering a steady but rewarding ascent with sweeping views of glens, lochs, and distant ranges. For experienced climbers, the North Face presents dramatic cliffs and technical challenges. At the summit, you'll find the ruins of a weather observatory and, on a clear day, panoramic views stretching across Scotland. Ben Nevis is not just a climb — it’s a rite of passage for outdoor adventurers.
-    </p>
-    <div class="text-start mt-auto">
-      <a href="#" class="btn-signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
-    </div>
-  </div>
-</div>
-</div>
-</section> 
-
-<hr class="my-5">
-
-    <!-- CHECKLIST SECTION -->
-
-   <section class="checklist-section" id="checklist">
-  <div class="container">
-    <h2 class="text-center mb-4">Checklist</h2>
-
-    <div class="row justify-content-center checklist-cards">
-
-      <!-- Essentials -->
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Essentials</h5>
-            <ul class="ps-3">
-              <li>Comfortable hiking backpack</li>
-              <li>Reusable water bottle (min. 1.5L)</li>
-              <li>High-energy snacks/lunch</li>
-              <li>Fully charged mobile phone</li>
-              <li>Personal medication</li>
-            </ul>
+              <img
+                src="assets/images/two-women.jpg"
+                alt="Two women standing on a mountain"
+                class="img-fluid rounded"
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Weather-Dependent -->
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Weather Dependent</h5>
-            <ul class="ps-3">
-              <li>Waterproof jacket and trousers</li>
-              <li>Sun cream & sunglasses</li>
-              <li>Warm hat and gloves (even in summer)</li>
-              <li>Spare dry socks</li>
-            </ul>
+      <hr class="my-5" />
+
+      <!-- HIKES SECTION -->
+      <section class="hikes-section fs-5" id="hikes">
+        <div class="container">
+          <h2 class="text-center mb-5">Hikes</h2>
+
+          <!-- Hike 1: -->
+          <div class="row align-items-stretch mb-5 pb-4 hike-card">
+            <div class="col-md-6 order-1 order-md-2">
+              <div
+                class="hike-image-wrapper position-relative"
+                style="margin-top: 12px"
+              >
+                <img
+                  src="assets/images/scafell-pike.jpg"
+                  loading="lazy"
+                  alt="Scafell Pike"
+                  class="img-fluid rounded"
+                  width="600"
+                  height="400"
+                />
+                <div
+                  class="hover-overlay d-flex justify-content-center align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn-signup"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signupModal"
+                    >Sign Up</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 order-2 order-md-1 d-flex flex-column">
+              <h3>Scafell Pike</h3>
+              <p>
+                Scafell Pike stands proudly as England’s highest mountain,
+                reaching a height of 978 meters (3,209 feet). Nestled in the
+                heart of the Lake District National Park, this iconic peak
+                offers not just stunning views, but a real sense of
+                accomplishment for those who reach its summit. The trail can be
+                challenging in places, with rocky paths and steep climbs, but it
+                rewards hikers with panoramic scenery stretching across the
+                Cumbrian mountains and even as far as Scotland on a clear day.
+                Whether you're chasing personal goals or walking in solidarity,
+                Scafell Pike is more than a climb — it’s a meaningful journey.
+              </p>
+              <div class="text-start mt-auto">
+                <a
+                  href="#"
+                  class="btn-signup"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signupModal"
+                  >Sign Up</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Hike 2 -->
+          <div class="row align-items-stretch mb-5 pb-4 hike-card">
+            <div class="col-md-6 order-1 order-md-1">
+              <div
+                class="hike-image-wrapper position-relative"
+                style="margin-top: 30px"
+              >
+                <img
+                  src="assets/images/snowdon.jpg"
+                  alt="Snowdon"
+                  loading="lazy"
+                  class="img-fluid rounded"
+                  width="600"
+                  height="400"
+                />
+                <div
+                  class="hover-overlay d-flex justify-content-center align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn-signup"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signupModal"
+                    >Sign Up</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 order-2 order-md-2 d-flex flex-column">
+              <h3>Snowdon</h3>
+              <p>
+                Snowdon, known in Welsh as Yr Wyddfa, is the highest mountain in
+                Wales, standing at 1,085 meters (3,560 feet). Located in the
+                stunning Snowdonia National Park, it's one of the most popular
+                and accessible peaks in the UK, offering a choice of well-marked
+                trails for every ability level. Whether you take the gradual
+                Llanberis Path or the steeper Pyg Track, each route promises
+                breathtaking views of glacial valleys, rugged ridgelines, and
+                sparkling lakes. On a clear day, you can even glimpse Ireland
+                across the sea. With its mix of natural beauty, cultural
+                history, and personal challenge, Snowdon is more than just a
+                hike — it’s an unforgettable experience.
+              </p>
+              <div class="text-start mt-auto">
+                <a
+                  href="#"
+                  class="btn-signup"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signupModal"
+                  >Sign Up</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Hike 3 -->
+          <div class="row align-items-stretch mb-5 pb-4 hike-card">
+            <div class="col-md-6 order-1 order-md-2">
+              <div
+                class="hike-image-wrapper position-relative"
+                style="margin-top: 25px"
+              >
+                <img
+                  src="assets/images/ben-nevis.jpg"
+                  alt="Ben Nevis"
+                  loading="lazy"
+                  class="img-fluid rounded"
+                  width="600"
+                  height="400"
+                />
+                <div
+                  class="hover-overlay d-flex justify-content-center align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn-signup"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signupModal"
+                    >Sign Up</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 order-2 order-md-1 d-flex flex-column">
+              <h3>Ben Nevis</h3>
+              <p>
+                Ben Nevis is the highest mountain in the British Isles, towering
+                at 1,345 meters (4,413 feet) above sea level. Located near the
+                town of Fort William in the Scottish Highlands, it is a
+                legendary peak that draws thousands of climbers and hikers each
+                year. The most popular route to the summit is the Mountain Track
+                (also known as the Tourist Route), offering a steady but
+                rewarding ascent with sweeping views of glens, lochs, and
+                distant ranges. For experienced climbers, the North Face
+                presents dramatic cliffs and technical challenges. At the
+                summit, you'll find the ruins of a weather observatory and, on a
+                clear day, panoramic views stretching across Scotland. Ben Nevis
+                is not just a climb — it’s a rite of passage for outdoor
+                adventurers.
+              </p>
+              <div class="text-start mt-auto">
+                <a
+                  href="#"
+                  class="btn-signup"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signupModal"
+                  >Sign Up</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Recommended Clothing -->
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Recommended Clothing</h5>
-            <ul class="ps-3">
-              <li>Moisture-wicking base layers</li>
-              <li>Mid-layer fleece or softshell</li>
-              <li>Durable hiking trousers</li>
-              <li>Sturdy walking boots (broken in)</li>
-            </ul>
+      <hr class="my-5" />
+
+      <!-- CHECKLIST SECTION -->
+
+      <section class="checklist-section" id="checklist">
+        <div class="container">
+          <h2 class="text-center mb-4">Checklist</h2>
+
+          <div class="row justify-content-center checklist-cards">
+            <!-- Essentials -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Essentials</h5>
+                  <ul class="ps-3">
+                    <li>Comfortable hiking backpack</li>
+                    <li>Reusable water bottle (min. 1.5L)</li>
+                    <li>High-energy snacks/lunch</li>
+                    <li>Fully charged mobile phone</li>
+                    <li>Personal medication</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Weather-Dependent -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dependent</h5>
+                  <ul class="ps-3">
+                    <li>Waterproof jacket and trousers</li>
+                    <li>Sun cream & sunglasses</li>
+                    <li>Warm hat and gloves (even in summer)</li>
+                    <li>Spare dry socks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recommended Clothing -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Recommended Clothing</h5>
+                  <ul class="ps-3">
+                    <li>Moisture-wicking base layers</li>
+                    <li>Mid-layer fleece or softshell</li>
+                    <li>Durable hiking trousers</li>
+                    <li>Sturdy walking boots (broken in)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Optional Extras -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Optional Extras</h5>
+                  <ul class="ps-3">
+                    <li>Walking poles</li>
+                    <li>Small first aid kit</li>
+                    <li>Trail map or route notes</li>
+                    <li>Lightweight sit pad</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <hr class="my-5" />
 
-      <!-- Optional Extras -->
-      <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Optional Extras</h5>
-            <ul class="ps-3">
-              <li>Walking poles</li>
-              <li>Small first aid kit</li>
-              <li>Trail map or route notes</li>
-              <li>Lightweight sit pad</li>
-            </ul>
+      <!-- MEETING POINTS SECTION -->
+
+      <section class="meeting-points-section" id="meeting-points">
+        <div class="container">
+          <h2 class="text-center mb-5">Meeting Points</h2>
+
+          <div class="row mb-4">
+            <div class="col-md-6 offset-md-3 text-center">
+              <h4>Scafell Pike</h4>
+              <p>Meet at Wasdale Head Car Park, 8:00 AM</p>
+              <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9424.150452316332!2d-3.281648465168986!3d54.45219400320609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487d6044ea3dc1d1%3A0x9c64d6a621a1d0b3!2sWasdale%20Head%20Car%20Park!5e0!3m2!1sen!2suk!4v1713880671406!5m2!1sen!2suk"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-6 offset-md-3 text-center">
+              <h4>Snowdon</h4>
+              <p>Meet at Pen-y-Pass Car Park, 9:00 AM</p>
+              <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2343.6074771457013!2d-4.068565284016837!3d53.080132779917144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48654a8b09e1c709%3A0x4b41dfb345b7b36!2sPen-y-Pass%20Car%20Park!5e0!3m2!1sen!2suk!4v1713880813514!5m2!1sen!2suk"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-6 offset-md-3 text-center">
+              <h4>Ben Nevis</h4>
+              <p>Meet at Glen Nevis Visitor Centre, 8:30 AM</p>
+              <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2177.8211874209896!2d-5.077556984036301!3d56.80299878076773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488dcba56fc5cb3d%3A0x3e97f7f53d47d3ac!2sGlen%20Nevis%20Visitor%20Centre!5e0!3m2!1sen!2suk!4v1713880916767!5m2!1sen!2suk"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-    </div>
-  </div>
-</section>
-<hr class="my-5">
+      <hr class="my-5" />
 
-    <!-- MEETING POINTS SECTION -->
+      <!--PRICING SECTION-->
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <h2 class="text-center mb-5">Pricing</h2>
 
-    <section class="meeting-points-section" id="meeting-points">
-       <div class="container">
-    <h2 class="text-center mb-5">Meeting Points</h2>
+          <div class="text-center mb-4">
+            <div class="pricing-tabs">
+              <input type="radio" name="tabset" id="tab1" checked />
+              <label for="tab1">Pricing Table</label>
 
-    <div class="row mb-4">
-      <div class="col-md-6 offset-md-3 text-center">
-        <h4>Scafell Pike</h4>
-        <p>Meet at Wasdale Head Car Park, 8:00 AM</p>
-       <iframe
-       class="map-frame"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9424.150452316332!2d-3.281648465168986!3d54.45219400320609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487d6044ea3dc1d1%3A0x9c64d6a621a1d0b3!2sWasdale%20Head%20Car%20Park!5e0!3m2!1sen!2suk!4v1713880671406!5m2!1sen!2suk"
-  height="200" style="border:0;" allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-      </div>
-    </div>
+              <input type="radio" name="tabset" id="tab2" />
+              <label for="tab2">Bundle Offer</label>
 
-    <div class="row mb-4">
-      <div class="col-md-6 offset-md-3 text-center">
-        <h4>Snowdon</h4>
-        <p>Meet at Pen-y-Pass Car Park, 9:00 AM</p>
-       <iframe
-            class="map-frame"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2343.6074771457013!2d-4.068565284016837!3d53.080132779917144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48654a8b09e1c709%3A0x4b41dfb345b7b36!2sPen-y-Pass%20Car%20Park!5e0!3m2!1sen!2suk!4v1713880813514!5m2!1sen!2suk"
-height="200" style="border:0;" allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-      </div>
-    </div>
+              <div class="tab-panel" id="panel1">
+                <div class="table-responsive">
+                  <table class="table table-bordered text-center align-middle">
+                    <thead class="table-light">
+                      <tr>
+                        <th>Hike</th>
+                        <th>Price</th>
+                        <th>Notes</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Snowdon</td>
+                        <td>£35</td>
+                        <td>
+                          Great for beginners · Includes guide & transport
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ben Nevis</td>
+                        <td>£50</td>
+                        <td>
+                          Most challenging hike · Full-day adventure for
+                          experienced hikers
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Scafell Pike</td>
+                        <td>£40</td>
+                        <td>
+                          Ideal for intermediates · Stunning views from
+                          England’s highest peak
+                        </td>
+                      </tr>
+                      <tr class="bundle-highlight">
+                        <td><strong>All 3 hikes</strong></td>
+                        <td><strong>£110</strong> <em>(save £15)</em></td>
+                        <td>
+                          Discounted bundle · Flexible booking across dates
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
 
-    <div class="row mb-4">
-      <div class="col-md-6 offset-md-3 text-center">
-        <h4>Ben Nevis</h4>
-        <p>Meet at Glen Nevis Visitor Centre, 8:30 AM</p>
-        <iframe
-             class="map-frame"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2177.8211874209896!2d-5.077556984036301!3d56.80299878076773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488dcba56fc5cb3d%3A0x3e97f7f53d47d3ac!2sGlen%20Nevis%20Visitor%20Centre!5e0!3m2!1sen!2suk!4v1713880916767!5m2!1sen!2suk"
-  height="200" style="border:0;" allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-      </div>
-    </div>
-  </div>
-</section>
-  
-
-    <hr class="my-5">
-
-    <!--PRICING SECTION-->
-<section class="pricing-section" id="pricing">
-  <div class="container">
-    <h2 class="text-center mb-5">Pricing</h2>
-
-    <div class="text-center mb-4">
-      <div class="pricing-tabs">
-        <input type="radio" name="tabset" id="tab1" checked >
-        <label for="tab1">Pricing Table</label>
-
-        <input type="radio" name="tabset" id="tab2">
-        <label for="tab2">Bundle Offer</label>
-
-        <div class="tab-panel" id="panel1">
-          <div class="table-responsive">
-            <table class="table table-bordered text-center align-middle">
-              <thead class="table-light">
-                <tr>
-                  <th>Hike</th>
-                  <th>Price</th>
-                  <th>Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Snowdon</td>
-                  <td>£35</td>
-                  <td>Great for beginners · Includes guide & transport</td>
-                </tr>
-                <tr>
-                  <td>Ben Nevis</td>
-                  <td>£50</td>
-                  <td>Most challenging hike · Full-day adventure for experienced hikers</td>
-                </tr>
-                <tr>
-                  <td>Scafell Pike</td>
-                  <td>£40</td>
-                  <td>Ideal for intermediates · Stunning views from England’s highest peak</td>
-                </tr>
-                <tr class="bundle-highlight">
-                  <td><strong>All 3 hikes</strong></td>
-                  <td><strong>£110</strong> <em>(save £15)</em></td>
-                  <td>Discounted bundle · Flexible booking across dates</td>
-                </tr>
-              </tbody>
-            </table>
+              <div class="tab-panel" id="panel2">
+                <div class="text-center">
+                  <h4>Bundle Offer</h4>
+                  <p>
+                    Join all three hikes — <strong>Snowdon</strong>,
+                    <strong>Ben Nevis</strong>, and
+                    <strong>Scafell Pike</strong> — for just
+                    <strong>£110</strong>.
+                  </p>
+                  <p>
+                    You save <strong>£15</strong> compared to booking
+                    individually!
+                  </p>
+                  <p>
+                    Perfect if you want the full Blister Sisters challenge
+                    across breathtaking landscapes.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn-signup mt-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signupModal"
+                    data-hike="bundle"
+                    >Book the Bundle</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="tab-panel" id="panel2">
-          <div class="text-center">
-            <h4>Bundle Offer</h4>
-            <p>Join all three hikes — <strong>Snowdon</strong>, <strong>Ben Nevis</strong>, and <strong>Scafell Pike</strong> — for just <strong>£110</strong>.</p>
-            <p>You save <strong>£15</strong> compared to booking individually!</p>
-            <p>Perfect if you want the full Blister Sisters challenge across breathtaking landscapes.</p>
-            <a href="#" class="btn-signup mt-3" data-bs-toggle="modal" data-bs-target="#signupModal" data-hike="bundle">Book the Bundle</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
+      </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="site-footer">
-  <div class="container">
-    <div class="row text-center text-md-start">
-   
-      <div class="col-md-4 mb-3 mb-md-0">
-        <h6>Contact Us</h6>
-        <p>hello@blistersisters.com</p>
-      </div>
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6>Contact Us</h6>
+            <p>hello@blistersisters.com</p>
+          </div>
 
-      <div class="col-md-4 mb-3 mb-md-0 text-center">
-        <h6>Follow Us</h6>
-        <div class="social">
-      <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our Instagram page"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our Facebook page"
-          ><i class="fa-brands fa-facebook"></i
-        ></a>
-        <a
-          href="https://www.x.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our X page"
-        >
-          <i class="fa-brands fa-twitter"></i
-        ></a>
+          <div class="col-md-4 mb-3 mb-md-0 text-center">
+            <h6>Follow Us</h6>
+            <div class="social">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.x.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our X page"
+              >
+                <i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-md-end text-center">
+            <h6>Copyright</h6>
+            <p>&copy; 2025 Blister Sisters. All rights reserved.</p>
+          </div>
         </div>
       </div>
+    </footer>
 
-      <div class="col-md-4 text-md-end text-center">
-        <h6>Copyright</h6>
-        <p>&copy; 2025 Blister Sisters. All rights reserved.</p>
+    <!-- SIGNUP MODAL -->
+    <div
+      class="modal fade"
+      id="signupModal"
+      tabindex="-1"
+      aria-labelledby="signupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">
+              Sign Up for a Hike
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="success.html" method="GET">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="hikeSelect" class="form-label">Select a Hike</label>
+                <select class="form-select" id="hikeSelect" required>
+                  <option selected disabled value="">Choose a hike...</option>
+                  <option value="scafell">Scafell Pike</option>
+                  <option value="snowdon">Snowdon</option>
+                  <option value="ben-nevis">Ben Nevis</option>
+                  <option value="bundle">All 3 hikes (Bundle)</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-signup w-100">
+                Sign Up
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
-</footer>
 
- <!-- SIGNUP MODAL -->
-<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signupModalLabel">Sign Up for a Hike</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form action="success.html" method="GET">
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" name="phone" required>
-          </div>
-          <div class="mb-3">
-            <label for="hikeSelect" class="form-label">Select a Hike</label>
-            <select class="form-select" id="hikeSelect" required>
-              <option selected disabled value="">Choose a hike...</option>
-              <option value="scafell">Scafell Pike</option>
-              <option value="snowdon">Snowdon</option>
-              <option value="ben-nevis">Ben Nevis</option>
-               <option value="bundle">All 3 hikes (Bundle)</option> 
-            </select>
-          </div>
-          <button type="submit" class="btn btn-signup w-100">Sign Up</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
