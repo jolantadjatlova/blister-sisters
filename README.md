@@ -192,6 +192,76 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 | As a user, I want to sign up for my chosen hike/s through a simple form. | A modal sign-up form allows users to register for individual hikes or the bundle, with fields for name, email, phone, and hike selection. | P | |
 | As a user, I want to compare hike prices and available bundle deals, so I can choose an option that fits my budget. | The Pricing section includes a detailed table showing individual hike costs and a clearly marked discounted bundle offer. | P | |
 
+# Deployment
+
+## To deploy the project
+
+Blister Sisters was deployed early in the process to GitHub pages via the following steps:
+
+- Navigate to the repository on GitHub and click on **Settings**.
+
+- In the side navigation and select **Pages**.
+
+- In the **None** dropdown and choose **Main**.
+
+- Click on the **Save** button.
+
+- The website is now live at https://jolantadjatlova.github.io/blister-sisters/.
+
+_Any changes required to the website, they can be made, committed and pushed to GitHub._
+
+## To fork the project
+
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
+
+## To clone the project
+
+- Log in to GitHub.
+- Navigate to the main page of the repository and click Code.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
+# Credits
+
+#### Feedback, advice and support:
+
+  - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+#### Learning help and Resources
+
+- [Code Institute](https://codeinstitute.net/ "Code Institute")
+- [W3 Schools](https://www.w3schools.com/ "W3 Schools")
+- [Slack](https://slack.com/intl/en-gb/ "Slack")
+- [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
+
+#### Images:
+
+- [ChatGPT](https://chatgpt.com/ "ChatGPT")
+- [Favicon.io](https://favicon.io "Favicon.io")
+- [Pixlr](https://pixlr.com/ "Pixlr")
+
+
+#### Visual Content:
+
+- [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23C0C0C0%0D%0A%2373937E%0D%0A%23053501%0D%0A%23000000%0D%0A%23FFFFFF&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp "Contrast Grid")
+- [Balsamiq](https://balsamiq.com/education/ "Balsamiq")
+- [Font Awesome](https://fontawesome.com/search?q=menu&o=r&ic=free "Font Awesome")
+- [Coolors](http://https://coolors.co/ "Coolors")
+
+
+
+
+
+
 
 
 
