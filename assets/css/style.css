@@ -321,6 +321,10 @@ body {
   margin-bottom: 40px;
   color: var(--color-dark-green);
 }
+.map-frame {
+  width: 100%;
+  border: 0;
+}
 
 /* Footer */
 .site-footer .social a {
