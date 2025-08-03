@@ -188,6 +188,17 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 ### HTML
 I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") to test my html files.
 
+* Main Page: 
+![W3C HTML Validator](doc/html-validation-index.png "W3C HTML Validation index.html")
+
+* Success Page: 
+
+![W3C HTML Validator](doc/success.html-validation.png "W3C HTML Validation success.html")
+
+* 404 Page:
+
+![W3C HTML Validation](doc/404.html-validation.png "W3C HTML Validation 404.html")
+
 ### CSS
 
 ## User Story Testing
