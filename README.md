@@ -231,6 +231,20 @@ CSS code for the webpage was validated on [W3C CSS Validation Service](https://j
 | **Select a Hike** | Required. Must select a valid option from the dropdown.                  | No hike selected             | Submission blocked. Inline browser message: "Please select an item in the list."    | ![Hike](doc/signup-hike.png)         |
 
 
+## Lighthouse Testing 
+Blister Sisters has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
+* Performance - how quickly a website loads and how quickly users can access it.
+* Accessibility - test analyses how well people who use assistive technologies can use your website.
+* Best Practices - checks whether the page is built on the modern standards of web development.
+
+Test for Mobile: 
+
+![Lighthouse-Testing-Mobile](doc/lighthouse-testing-mobile.png)
+
+Test for Desktop:
+
+![Lighthouse-Testing-desktop](doc/lighthouse-testing-desktop.png)
+## Browser Testing
 
 # Deployment
 
