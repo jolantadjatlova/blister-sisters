@@ -194,9 +194,8 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 
 ## Github Projects
 
-[Github Projects](https://github.com/users/jolantadjatlova/projects/3)
 
-The development process was organized using GitHub Projects, following an Agile and user-focused methodology. A Kanban board was set up to clearly manage tasks and monitor progress throughout the different stages of the build.
+The development process was organized using [Github Projects](https://github.com/users/jolantadjatlova/projects/3), following an Agile and user-focused methodology. A Kanban board was set up to clearly manage tasks and monitor progress throughout the different stages of the build.
 
 This method ensured the project stayed aligned with user goals, avoided unnecessary features, and maintained a clear scope — allowing delivery of a solid MVP through an iterative and focused workflow.
 
