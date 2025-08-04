@@ -57,16 +57,25 @@ The website will feature:
 - Consistent visual language across images, colors, and text to maintain trust and alignment.
 
 ## Architecture & Design
-**Landing Page:**  
-- A hero image that reflects the outdoors and community spirit.
-- Immediate CTA to “Join a Hike”.
+The website begins with a large hero image of a scenic mountain landscape, capturing the outdoor adventure and supportive spirit behind Blister Sisters. It’s paired with a bold, centered title and a simple tagline — “Walking together. Healing together.” — that sets a friendly and empowering tone. A consistent layout is used across all pages, with a clean navigation bar and custom footer that help guide users through the experience.
 
-**Meet the Sisters:**  
-- A page highlighting personal stories, possibly with short bios or quotes.
-- Inspiring images of women hiking together.
+There are seven main sections:
 
-**Contact Form:**  
-- Easy-to-use form for users to sign up for hikes.
+- Hero: A striking mountain background image with overlaid text introduces the name and message of the group — “Blister Sisters: Walking together. Healing together.”
+
+- About Us: A section combining text and imagery that explains the purpose behind the community, its origins, and its focus on emotional wellbeing through group hiking experiences.
+
+- Hikes: Three structured hike cards (Scafell Pike, Snowdon, Ben Nevis) present key details about each route, with supporting images and "Sign Up" buttons that trigger a registration modal.
+
+- Checklist: A user-friendly breakdown of recommended gear, divided into Essentials, Weather Dependent items, Recommended Clothing, and Optional Extras, formatted using responsive Bootstrap cards.
+
+- Meeting Points: Embedded Google Maps for each hike's meetup location, displayed in a mobile-friendly layout.
+
+- Pricing: Tab-based pricing section including a detailed table and a special bundle offer, with clear pricing and booking options.
+
+- Contact/Success Page: After submission, users are redirected to a custom thank-you page confirming form submission and offering a direct link back to the homepage.
+
+The design focuses on readability, mobile responsiveness, and clear calls to action, ensuring an intuitive experience for users exploring or signing up for hikes.
 
 ---
 ## Wireframes
