@@ -201,6 +201,10 @@ I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") 
 
 ### CSS
 
+CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator").
+
+![W3C CSS Validation](doc/css-validation.png "W3C Validator results")
+
 ## User Story Testing
 | User Story                                    |Result | Pass | Evidence |
 |-----------------------------------------------|------------------------------------------------------|------|----------|
