@@ -248,6 +248,13 @@ Test for Desktop:
 ![Lighthouse-Testing-desktop](doc/lighthouse-testing-desktop.png)
 ## Browser Testing
 
+| Page    | Chrome                                | Firefox                                | Microsoft Edge                         | Notes              |
+|---------|----------------------------------------|----------------------------------------|----------------------------------------|---------------------|
+| Home    | ![Home](doc/home-chrome.png)           | ![Home](doc/home-firefox.png)          | ![Home](doc/home-edge.png)             | Works as expected   |
+| Success | ![Success](doc/success-chrome.png)     | ![Success](doc/success-firefox.png)    | ![Success](doc/success-edge.png)       | Works as expected   |
+| 404     | ![404](doc/404-chrome.png)             | ![404](doc/404-firefox.png)            | ![404](doc/404-edge.png)               | Works as expected   |
+
+
 # Deployment
 
 ## To deploy the project
