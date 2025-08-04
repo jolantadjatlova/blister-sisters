@@ -181,7 +181,23 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 |[W3C HTML Validation Service](https://validator.w3.org/)          | Check HTML for syntax error.| Tool
 |[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)| Check CSS for syntax error. | Tool
 
+# Agile Development Process
 
+## Github Projects
+
+[Github Projects](https://github.com/users/jolantadjatlova/projects/3)
+
+The development process was organized using GitHub Projects, following an Agile and user-focused methodology. A Kanban board was set up to clearly manage tasks and monitor progress throughout the different stages of the build.
+
+This method ensured the project stayed aligned with user goals, avoided unnecessary features, and maintained a clear scope — allowing delivery of a solid MVP through an iterative and focused workflow.
+
+![Github Project](doc/github-project.png)
+
+## GitHub Issues
+
+[GitHub Issues](https://github.com/jolantadjatlova/blister-sisters/issues) were used as part of the Agile workflow to manage user stories, log tasks, and track any bugs or challenges encountered during development.
+
+![Github Issues](doc/github-issues.png)
 # Testing
 ## Bugs
 | Bug                                               | Status | Resolution Notes                                                                                                                                                      |
