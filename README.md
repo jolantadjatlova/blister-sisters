@@ -182,6 +182,12 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 ## Bugs
 
 ## Responsiveness Test
+I've tested my deployed project to check for responsiveness issues.
+| Page | Mobile | Tablet | Desktop | Notes |
+|------|--------|--------|---------|-------|
+| Home |![Home](doc/mobile-responsiveness-home.png)|![Home](doc/tablet-responsiveness-home.png)|![Home](doc/desktop-responsiveness-home.png)         | Works as expected      |
+| Success    |![Success](doc/mobile-responsiveness-success.png)|![Success](doc/tablet-responsiveness-success.png)|![Success](doc/desktop-responsiveness-success.png)|    Works as expected    |
+| 404     |![404](doc/mobile-responsiveness-404.png)|![404](doc/tablet-responsiveness-404.png)|![404](doc/desktop-responsiveness-404.png)        |  Works as expected      |
 
 ## Code Validation
 
