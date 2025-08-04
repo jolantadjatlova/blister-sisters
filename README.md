@@ -114,7 +114,7 @@ The primary font used for this website is [Lato](https://fonts.google.com/specim
 The heading font is [EB Garamond](https://fonts.google.com/specimen/EB+Garamond "EB Garamond"), a classic serif typeface that adds elegance and warmth. Its use in section headings and titles creates a sense of contrast and visual hierarchy, pairing well with the simplicity of Lato.
 
 ### Colour Scheme
-The color scheme was generated using Coolors.co, inspired by the website’s hero image of a mountain at sunrise. The palette reflects natural tones of morning light and earthy environment, creating a calm and welcoming atmosphere.
+The color scheme was generated using [Coolors](https://coolors.co/) inspired by the website’s hero image of a mountain at sunrise. The palette reflects natural tones of morning light and earthy environment, creating a calm and welcoming atmosphere.
 
 ![Color Palette](doc/palette.png) 
 
