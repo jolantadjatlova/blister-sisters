@@ -157,26 +157,28 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 - **Expanded Hike Listings**: Expand available trails and introduce filter options based on location, duration, or difficulty to accommodate different user preferences.
 - **Booking & Payment System**: Integrate online booking and secure payment functionality so users can reserve and pay for guided hikes directly through the site.
 
-# Tools / Technologies
+# Technologies Used
+   
+| Technology                                                       | Purpose | Type
+|------------------------------------------------------------------|---------|---------------------------------------|
+|[Git](https://git-scm.com/)                                       | Track changes and manage code history.| Tool |
+|[GitHub](https://github.com)                                      | Store and share the repository.| Tool
+|[VS Code](https://code.visualstudio.com)                          | Writing and organizing all project files.| Tool
+|[HTML](https://en.wikipedia.org/wiki/HTML)                        | Building the basic structure of website. | Language
+|[CSS](https://en.wikipedia.org/wiki/CSS)                          | Designing layout and visual elements.    | Language
+|[Bootstrap](https://getbootstrap.com)                             | Used for responsive layout and reusable UI components.| Library
+|[Am I Responsive](https://ui.dev/amiresponsive?url=https://jolantadjatlova.github.io/blister-sisters/)| Preview how the website looks on multiple device screens.| Tool
+|[Balsamiq](https://balsamiq.com/wireframes)                       | Create wireframes.| Tool
+|[Coolors](https://coolors.co/)                                    | Generating the project’s colour palette.| Tool
+|[Eight Shapes](https://contrast-grid.eightshapes.com/)            | Generating contrast grid.| Tool
+|[Pixlr](https://pixlr.com/)                                       | Resizing and converting images.| Tool
+|[Favicon](https://favicon.io/#google_vignette)                    | Generate custom favicon icons for the website.| Library |
+|[Google Fonts](https://fonts.google.com/)                         | Used to import and apply custom web fonts.| Library
+|[Font Awesome](https://fontawesome.com)                           | Adding social icons and other visual elements.| Library
+|[ChatGPT](https://chat.openai.com)                                | Assisted in writing content and generated all images.| AI
+|[W3C HTML Validation Service](https://validator.w3.org/)          | Check HTML for syntax error.| Tool
+|[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)| Check CSS for syntax error. | Tool
 
-| Tools / Tech                                                     | Purpose                                                |
-|------------------------------------------------------------------|--------------------------------------------------------|
-|[Git](https://git-scm.com/)                                       | Track changes and manage code history.                 |
-|[GitHub](https://github.com)                                      | Store and share the repository.                        |
-|[VS Code](https://code.visualstudio.com)                          | Writing and organizing all project files.              |
-|[HTML](https://en.wikipedia.org/wiki/HTML)                        | Building the basic structure of website.               |
-|[CSS](https://en.wikipedia.org/wiki/CSS)                          | Designing layout and visual elements.                  |
-|[Bootstrap](https://getbootstrap.com)                             | Used for responsive layout and reusable UI components. |
-|[Balsamiq](https://balsamiq.com/wireframes)                       | Create wireframes.                                     |
-|[Coolors](https://coolors.co/)                                    | Generating the project’s colour palette.               |
-|[Eight Shapes](https://contrast-grid.eightshapes.com/)            | Generating contrast grid.                              |
-|[Pixlr](https://pixlr.com/)                                       | Resizing and converting images.                        |
-|[Font Awesome](https://fontawesome.com)                           | Adding social icons and other visual elements.         |
-|[ChatGPT](https://chat.openai.com)                                | Assisted in writing content and generated all images.  |
-|[W3Schools](https://www.w3schools.com)                            | Reference for HTML, CSS, and Bootstrap syntax and tips.|
-|[W3C HTML Validation Service](https://validator.w3.org/)          | Check HTML for syntax error.                           |
-|[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)| Check CSS for syntax error.                            |
-|[Stack Overflow](https://stackoverflow.com)                       | Resource for debugging and resolving technical issues. |
 
 # Testing
 ## Bugs
