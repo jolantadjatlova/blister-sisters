@@ -80,7 +80,7 @@ The design focuses on readability, mobile responsiveness, and clear calls to act
 ---
 ## Wireframes
 
-Wireframes were designed using [Balsamiq](https://balsamiq.com/) tool. Following best practices, mobile version was designed first, then tablet and lastly the laptop view.
+Wireframes were created using [Balsamiq](https://balsamiq.com/) to map out the layout for mobile, tablet, and desktop screens.
 
 ### Home Page
 ![Home Page](doc/home-page-wframe.png)
