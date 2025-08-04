@@ -139,7 +139,7 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 
 ## Existing Features
 
-| Feature | Notes | Screenshot |
+| Feature | Notes | Evidence |
 | --- | --- | --- |
 | Navbar | The navbar is simple, fixed to the top of the page, and includes a custom mountain icon as a logo to reflect the hiking theme. It’s fully responsive using Bootstrap's navbar classes — on smaller screens, the links collapse into a mobile-friendly toggle menu. Navigation is smooth and intuitive, with anchor links that scroll directly to each section of the page like About Us, Hikes, and Pricing.|![Navbar](doc/navbar-image.png) 
 | Hero Section | The homepage opens with a strong introduction that highlights the mission of Blister Sisters and sets a calming, empowering tone. With a scenic mountain background and a central message, it invites visitors to explore the community and understand the supportive nature of the hikes. |![hero](doc/hero-section.png)|
@@ -220,6 +220,17 @@ CSS code for the webpage was validated on [W3C CSS Validation Service](https://j
 | As a user, I want clear and helpful information about what to pack for a hike, so I feel safe and prepared on the day. | The Checklist section provides categorized packing lists covering essentials, clothing, weather-dependent gear, and optional extras. | P |![Checklist](doc/user-story-evidence-checklist.png) |
 | As a user, I want to sign up for my chosen hike/s through a simple form. | A modal sign-up form allows users to register for individual hikes or the bundle, with fields for name, email, phone, and hike selection. | P |![Sign Up](doc/user-story-evidence-signup.png) |
 | As a user, I want to compare hike prices and available bundle deals, so I can choose an option that fits my budget. | The Pricing section includes a detailed table showing individual hike costs and a clearly marked discounted bundle offer. | P |![Pricing](doc/user-story-evidence-pricing.png) |
+
+## Form Validation Testing
+
+| **Field**         | **Expected Behavior**                                                    | **Tested Input**             | **Result**                                                                 | **Evidence**                         |
+|------------------|---------------------------------------------------------------------------|------------------------------|------------------------------------------------------------------------------|--------------------------------------|
+| **Your Name**     | Required. Must not accept empty input.                                   | Left empty                   | Submission blocked. Inline browser message: "Please fill in this field."    | ![Your Name](doc/signup-name.png)    |
+| **Email Address** | Required. Must not accept empty input.                               | Left empty  | Submission blocked. Inline browser message: "Please fill in this field."    | ![Email](doc/signup-email.png)       |
+| **Phone Number**  | Required. Must not accept empty input.                                   | Left empty                   | Submission blocked. Inline browser message: "Please fill in this field."    | ![Phone](doc/signup-phone.png)       |
+| **Select a Hike** | Required. Must select a valid option from the dropdown.                  | No hike selected             | Submission blocked. Inline browser message: "Please select an item in the list."    | ![Hike](doc/signup-hike.png)         |
+
+
 
 # Deployment
 
