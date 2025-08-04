@@ -176,6 +176,7 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 |[Google Fonts](https://fonts.google.com/)                         | Used to import and apply custom web fonts.| Library
 |[Font Awesome](https://fontawesome.com)                           | Adding social icons and other visual elements.| Library
 |[ChatGPT](https://chat.openai.com)                                | Assisted in writing content and generated all images.| AI
+|[Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)| Helped generate and format markdown tables.| Tool
 |[W3C HTML Validation Service](https://validator.w3.org/)          | Check HTML for syntax error.| Tool
 |[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)| Check CSS for syntax error. | Tool
 
@@ -310,12 +311,14 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - [W3 Schools](https://www.w3schools.com/ "W3 Schools")
 - [Slack](https://slack.com/intl/en-gb/ "Slack")
 - [Stack Overflow](https://stackoverflow.com/ "Stack Overflow")
+- [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables "Markdown Table Generator")
 
 #### Images:
 
 - [ChatGPT](https://chatgpt.com/ "ChatGPT")
 - [Favicon.io](https://favicon.io "Favicon.io")
 - [Pixlr](https://pixlr.com/ "Pixlr")
+- [SQUOOSH](https://squoosh.app/ "Squoosh")
 
 
 #### Visual Content:
