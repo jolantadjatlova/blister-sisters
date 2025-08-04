@@ -1,5 +1,4 @@
 # Blister Sisters
-
 ## Fully functioning static HTML/CSS/Bootsrap website.
 
 Blister Sisters is a website created to celebrate a community of women who come together to explore the outdoors, share stories, and support each other through the joys and challenges of hiking. By providing a space for women to connect, learn, and inspire one another, Blister Sisters highlights the significant connection between walking, friendship, and mental well-being.
@@ -328,6 +327,20 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - [Font Awesome](https://fontawesome.com/search?q=menu&o=r&ic=free "Font Awesome")
 - [Coolors](http://https://coolors.co/ "Coolors")
 
+# Final Tidy-Up
+
+One of the main challenges I encountered during this project was ensuring full responsiveness across different screen sizes. Through the development process, I learned the importance of adopting a mobile-first approach—starting with smaller screens and progressively enhancing for larger devices. This strategy not only simplifies the CSS but also reduces the need for later fixes and media query overrides. It’s a key lesson I’ll carry into future projects.
+
+Before submission, I revalidated my HTML and CSS using W3C’s validation services to ensure compliance with web standards and accessibility practices. I also reviewed my codebase and content one final time to make the following improvements:
+
+- Removed unused CSS classes and cleaned redundant code
+- Checked that all anchor tags have appropriate `target` and `rel` attributes
+- Ensured all internal links are functional (including 404 and success pages)
+- Verified that the README content aligns with the final deployed version
+- Improved consistency in naming, formatting, and indentation
+
+> **Note:**  
+> While all known bugs have been documented and resolved where possible, I acknowledge that minor issues may still arise under specific conditions or edge cases.
 
 
 
