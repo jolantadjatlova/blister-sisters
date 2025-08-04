@@ -182,7 +182,12 @@ This website offers a clean and friendly layout that's easy to navigate, whether
 
 # Testing
 ## Bugs
-
+| Bug                                               | Status | Resolution Notes                                                                                                                                                      |
+|----------------------------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Page navigation links skipped over target section titles | Yes    | Introduced scroll padding to offset link targets by at least the navbar height.                                                  |
+| Pricing table doesn't adjust on mobile            | No     | Tables are not inherently responsive on mobile devices.                                                                          |
+| Hero image did not scale properly on tablets      | Yes    | Moved the image from CSS background to an HTML `<img>` element for responsiveness.                                               |
+| Navigation menu remained open after link selection | No     | This can be resolved using JavaScript. However, since the project focuses solely on HTML and CSS—and JavaScript hasn't been covered yet—I chose not to implement it. |
 ## Responsiveness Test
 I've tested my deployed project to check for responsiveness issues.
 | Page | Mobile | Tablet | Desktop | Notes |
