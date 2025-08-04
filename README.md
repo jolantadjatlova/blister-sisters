@@ -198,6 +198,22 @@ This method ensured the project stayed aligned with user goals, avoided unnecess
 [GitHub Issues](https://github.com/jolantadjatlova/blister-sisters/issues) were used as part of the Agile workflow to manage user stories, log tasks, and track any bugs or challenges encountered during development.
 
 ![Github Issues](doc/github-issues.png)
+
+## MoSCoW Prioritization Approach
+
+To manage my workload effectively and stay organised, I applied the MoSCoW method within my GitHub Project board. I started by breaking down larger concepts into clear, manageable user stories, which I then sorted by priority level.
+
+This approach helped me concentrate on the most critical tasks first, while keeping lower-priority items on the radar for later.
+
+Tasks were divided based on importance:
+
+- Must Have – These were essential features that needed to be completed first for the project to function properly.
+
+- Should Have – Important additions that added significant value but weren’t critical to the initial build.
+
+- Could Have – Non-essential extras that would enhance the project if time allowed but wouldn’t negatively impact functionality if left out.
+
+Using this method kept my workflow focused and helped ensure that I delivered a solid, working solution without getting sidetracked by low-priority ideas.
 # Testing
 ## Bugs
 | Bug                                               | Status | Resolution Notes                                                                                                                                                      |
