@@ -72,7 +72,6 @@ To view the deployed website click [here](https://jolantadjatlova.github.io/blis
 
 **For the User:**
 - Discover the Blister Sisters community and how they support women hikers.
-- Read inspiring stories about women who use hiking to improve their mental well-being.
 - Find upcoming meet-ups or ways to join group hikes.
 - Share their own hiking experiences or sign up for events.
 
@@ -103,7 +102,7 @@ To view the deployed website click [here](https://jolantadjatlova.github.io/blis
 
 ## Agile Development Process
 
-The **Blister Sisters** website was built using the **Agile Software Development methodology**, focusing on iterative development, continuous feedback and delivering a user-centred Minimum Viable Product (MVP).
+The Blister Sisters website was developed using an iterative approach, inspired by Agile principles, with a focus on building a clear, user-friendly MVP.
 
 This approach helped ensure that features were implemented based on priority and user needs, rather than scope creep or assumptions.
 
@@ -154,11 +153,12 @@ This helped me:
 
 #### GitHub Issues
 [GitHub Issues](https://github.com/jolantadjatlova/blister-sisters/issues) were used to:
-- Document user stories
-- Log bugs or unexpected challenges
-- Break larger ideas into manageable tasks
 
-Each issue was assigned a label to indicate its purpose (e.g., "feature", "bug", or "enhancement").
+- Document user stories and tasks
+- Break down larger goals into manageable steps
+- Track development progress for key features
+
+Each issue was assigned a priority label using the MoSCoW method (e.g., must-have, should-have) to help focus on what was most essential for the MVP.
 
 ![GitHub Issues](doc/github-issues.png)
 
